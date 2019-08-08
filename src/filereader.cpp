@@ -19,6 +19,7 @@
 
 FileReader::FileReader() {
     m_elementData = read(":/data/periodicTable");
+    locale = QLocale();
 }
 
 QJsonArray FileReader::read(QString name) {
@@ -38,29 +39,88 @@ void FileReader::setElementNum(int num) {
     m_element = m_elementData[m_elementNum].toObject();
     m_keyList.clear();
     m_values.clear();
-    QVector<QVariant> values=QVector<QVariant>();
-    QVector<QString> keyVec = QVector<QString>();
+
     QStringList keys = m_element.keys();
     for (int i=0;i<18;i++){
+
         QString key = keys[detailIndexes[i]];
-        if(i==17) {
-            QJsonArray a = m_element.value(key).toArray();
-            QString s="";
-            foreach (QJsonValue v, a) {
-                s+=QString::number(v.toDouble())+"; ";
+        QVariant value = m_element.value(key);
+        QString s;
+        double v;
+        switch (i) {
+        case 0: case 4: case 5: case 6: case 7: case 8:
+
+            s = value.toString();
+            s[0]=s[0].toUpper();
+            m_values.push_back(s);
+            break;
+        case 11: case 12:
+            v = value.toDouble();
+            if( v!=0)
+                m_values.push_back(locale.toString(v) + " K");
+            else {
+                m_values.push_back("");
             }
-            s.remove(s.length()-2,2);
-            values.push_back(s);
+            break;
+        case 9:
+            v = value.toDouble();
+            if( v!=0)
+                m_values.push_back(locale.toString(v) + " g/mol");
+            else {
+                m_values.push_back("");
+            }
+            break;
+        case 10:
+            v = value.toDouble();
+            if( v!=0)
+                m_values.push_back(locale.toString(v) + " g/l");
+            else {
+                m_values.push_back("");
+            }
+            break;
+        case 13:
+            v = value.toDouble();
+            if( v!=0)
+                m_values.push_back(locale.toString(v) + " J/(mol·K)");
+            else {
+                m_values.push_back("");
+            }
+            break;
+        case 14:
+            v = value.toDouble();
+            if( v!=0)
+                m_values.push_back(locale.toString(v) + " kJ/mol");
+            else {
+                m_values.push_back("");
+            }
+            break;
+        case 17: {
+            QJsonArray a = m_element.value(key).toArray();
+            foreach (QJsonValue v, a) {
+                s+=locale.toString(v.toDouble())+"; ";
+            }
+            if(s.length()>0){
+                s.remove(s.length()-2,2);
+                s+=" kJ/mol";
+            }
+            else {
+               s="";
+            }
+            m_values.push_back(s);
         }
-        else {
-            values.push_back(m_element.value(key).toVariant());
+        break;
+        default:
+            if(m_element.value(key).isNull())
+                m_values.push_back("");
+            else
+                m_values.push_back(m_element.value(key).toVariant());
+        break;
         }
         key.replace('_',' ');
         key[0]=key[0].toUpper();
-        keyVec.push_back(key);
+        m_keyList.push_back(key);
     }
-    m_values=QVariantList::fromVector(values);
-    m_keyList=QStringList::fromVector(keyVec);
+
 }
 int FileReader::elementNum() {
     return m_elementNum;

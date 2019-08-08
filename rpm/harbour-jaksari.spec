@@ -14,10 +14,10 @@ Name:       harbour-jaksari
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Periodic table for sailfishOS
 Version:    0.1
-Release:    1
-Group:      Qt/Qt
-License:    LICENSE
-URL:        http://example.org/
+Release:    2
+Group:      Applications/Productivity
+License:    ISC license
+URL:        https://github.com/Aspor/harbour-jaksari
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-jaksari.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
@@ -28,7 +28,7 @@ BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  desktop-file-utils
 
 %description
-Short description of my Sailfish OS Application
+Periodic table with element properties
 
 
 %prep

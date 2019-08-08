@@ -1,6 +1,6 @@
 /*Copyright (c) 2019 Timo Mäenpää
  *
- *Permission to use, copy, modify, and distribute this file for any
+ *Permission to use, copy, modify, and distribute this software for any
  *purpose with or without fee is hereby granted, provided that the above
  *copyright notice and this permission notice appear in all copies.
 
@@ -48,6 +48,7 @@ private:
     QStringList m_keyList;
     QVariantList m_values;
 
+    QLocale locale;
 
     //Qt returns values from JSON sorted lexographically so order needs to be changed
     const int detailIndexes[18] ={13,22,15,16,3,0,6,14,17,1,5,2,11,12,7,9,8,10};

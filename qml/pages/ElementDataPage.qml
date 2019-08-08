@@ -1,6 +1,6 @@
 /*Copyright (c) 2019 Timo Mäenpää
  *
- *Permission to use, copy, modify, and distribute this file for any
+ *Permission to use, copy, modify, and distribute this software for any
  *purpose with or without fee is hereby granted, provided that the above
  *copyright notice and this permission notice appear in all copies.
  *
@@ -46,26 +46,25 @@ Page {
                 right: parent.right
             }
             ElementDataSection{
-                name: "General Properties"
+                name: qsTr("General Properties")
                 repeat: 8
                 offset: 0
                 values: elementDataPage.values
                 keyList: elementDataPage.keyList
             }
             ElementDataSection{
-                name: "Physical Properties"
+                name: qsTr("Physical Properties")
                 repeat: 6
                 offset: 8
                 values: elementDataPage.values
                 keyList: elementDataPage.keyList
             }
             ElementDataSection{
-                name: "Electronic Properties"
+                name: qsTr("Electronic Properties")
                 repeat: 4
                 offset: 14
                 values: elementDataPage.values
                 keyList: elementDataPage.keyList
-
             }
             SectionHeader {
                 color: Theme.highlightColor
@@ -126,7 +125,6 @@ Page {
     onElementNumberChanged: {
         dataFile.elementNum = elementNumber
         keyList = dataFile.keys
-        console.log(keyList)
         values = dataFile.values
         elementsymbol = values[1]
     }

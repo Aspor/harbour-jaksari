@@ -26,7 +26,7 @@ DISTFILES += \
     qml/cover/CoverPage.qml \
     qml/harbour-jaksari.qml \
     qml/pages/ElementDataSection.qml \
-    rpm/harbour-jaksari.changes.in \
+    rpm/harbour-jaksari.changes \
     rpm/harbour-jaksari.changes.run.in \
     rpm/harbour-jaksari.spec \
     rpm/harbour-jaksari.yaml \

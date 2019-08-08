@@ -1,6 +1,6 @@
 /*Copyright (c) 2019 Timo Mäenpää
  *
- *Permission to use, copy, modify, and distribute this file for any
+ *Permission to use, copy, modify, and distribute this software for any
  *purpose with or without fee is hereby granted, provided that the above
  *copyright notice and this permission notice appear in all copies.
  *
@@ -35,7 +35,7 @@ Item {
         font.pixelSize: Theme.fontSizeLarge
         horizontalAlignment: Text.AlignRight
         verticalAlignment: Text.AlignVCenter
-        text: qsTranslate("ElementDataPage",section.name)
+        text: "ElementDataPage"
         anchors {
             topMargin: 55
             bottomMargin: 15
@@ -45,7 +45,7 @@ Item {
         model: repeat
         delegate: ElementItem {
             tag: section.keyList[index+section.offset]
-            value: section.values[index+section.offset]
+            value: String(section.values[index+section.offset])
         }
     }
     }
