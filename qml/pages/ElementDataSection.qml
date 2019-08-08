@@ -35,11 +35,7 @@ Item {
         font.pixelSize: Theme.fontSizeLarge
         horizontalAlignment: Text.AlignRight
         verticalAlignment: Text.AlignVCenter
-        text: "ElementDataPage"
-        anchors {
-            topMargin: 55
-            bottomMargin: 15
-        }
+        text: section.name
     }
     Repeater {
         model: repeat

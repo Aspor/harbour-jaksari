@@ -14,7 +14,7 @@ Name:       harbour-jaksari
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Periodic table for sailfishOS
 Version:    0.1
-Release:    2
+Release:    3
 Group:      Applications/Productivity
 License:    ISC license
 URL:        https://github.com/Aspor/harbour-jaksari

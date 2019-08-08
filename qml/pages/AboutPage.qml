@@ -15,7 +15,6 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-import io.thp.pyotherside 1.2
 
 Page {
     SilicaFlickable {
@@ -41,12 +40,12 @@ Page {
             } 
             Label {
                 font.pixelSize: Theme.fontSizeSmall
-                text: qsTr('Atom data:')+  '<html><style type="text/css"></style><a href="https://www.wikipedia.org/">https://www.wikipedia.org/</a></html> ' + qsTr('and') +' '
+                text: qsTr('Atom data: ')+  '<html><style type="text/css"></style><a href="https://www.wikipedia.org/">www.wikipedia.org/</a></html> ' + qsTr('and') +' '
                 onLinkActivated: Qt.openUrlExternally('https://www.wikipedia.org/')
             } 
             Label {
                 font.pixelSize: Theme.fontSizeSmall
-                text: '<html><style type="text/css"></style><a href="https://github.com/Bowserinator/Periodic-Table-JSON">https://github.com/Bowserinator/Periodic-Table-JSON</a></html>'
+                text: '<html><style type="text/css"></style><a href="https://github.com/Bowserinator/Periodic-Table-JSON">github.com/Bowserinator/Periodic-Table-JSON</a></html>'
                 onLinkActivated: Qt.openUrlExternally('https://github.com/Bowserinator/Periodic-Table-JSON')
             }
         }

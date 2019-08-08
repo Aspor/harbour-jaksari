@@ -15,7 +15,6 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-import io.thp.pyotherside 1.2
 import utils 1.0
 
 Page {
