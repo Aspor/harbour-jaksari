@@ -5,7 +5,7 @@
     <name>AboutPage</name>
     <message>
         <source>License: GPLv3 or later</source>
-        <translation>许可协议: GPLv3及以后版本i</translation>
+        <translation>许可协议: GPLv3及以后版本</translation>
     </message>
     <message>
         <source>Atom data:</source>
@@ -759,7 +759,7 @@
     </message>
     <message>
         <source>Gray metallic</source>
-        <translation>Harmaa metallinen</translation>
+        <translation>灰色金属</translation>
     </message>
     <message>
         <source>Karl Samuel Leberecht Hermann</source>
@@ -867,7 +867,7 @@
     </message>
     <message>
         <source>Fluorine</source>
-        <translation>Fluori</translation>
+        <translation>氟</translation>
     </message>
     <message>
         <source>Colorless gas exhibiting a lilac/violet glow when placed in a high voltage electric field</source>
@@ -1115,7 +1115,7 @@
     </message>
     <message>
         <source>Ancient Egypt</source>
-        <translation>古埃及i</translation>
+        <translation>古埃及</translation>
     </message>
     <message>
         <source>Silvery white metallic</source>
@@ -1151,7 +1151,7 @@
     </message>
     <message>
         <source>Polonium</source>
-        <translation>Polonium</translation>
+        <translation>钋</translation>
     </message>
     <message>
         <source>Johan August Arfwedson</source>
@@ -1163,7 +1163,7 @@
     </message>
     <message>
         <source>Alkali metal</source>
-        <translation>Alkalimetalli</translation>
+        <translation>碱金属</translation>
     </message>
     <message>
         <source>Anders Gustaf Ekeberg</source>
