@@ -38,7 +38,7 @@ Page {
         property var  colors: {
             const groupColors = [ '#ffccff' ,'#ccffff',  '#ffffcc', '#ffffaa', '#00ffff', '#ffaaff', '#ccffcc', '#ccccff', '#ffcccc', '#aaaaff', '#aaffaa',  '#ffaaaa', '#aaccaa','#ccaaaa','#aaaacc','#ccccaa','#aacccc','#ccaacc','#ff00ff','#00ffff']
             var colorArr=[]
-           //const elementData=ElementJSON.elementsData
+            //const elementData=ElementJSON.elementsData
             const elementData=dataFile.elements
             for(var i=1;i<119;i++){
                 if(i===3||i===11||i===19||i===37||i===55||i===87)
@@ -108,44 +108,44 @@ Page {
 
             for( i=0;i<118;i++) {
                 switch(elementData[i]['category']) {
-                    case "diatomic nonmetal":
-                        colorArr[4*118+i]=("#ff22ff")
-                        break
-                    case "polyatomic nonmetal":
-                        colorArr[4*118+i]=("#ff55ff")
-                        break
-                    case "alkali metal":
-                        colorArr[4*118+i]=("#22ffff")
-                        break
-                    case "alkaline earth metal":
-                        colorArr[4*118+i]=("#aaffff")
-                        break
-                    case "metal":
-                        colorArr[4*118+i]=("#ffff22")
-                        break
-                    case "transition metal":
-                        colorArr[4*118+i]=("#ffffaa")
-                        break
-                    case "metalloid":
-                        colorArr[4*118+i]=("#e0e0e0")
-                        break
-                    case "noble gas":
-                        colorArr[4*118+i]=("#22ff22")
-                        break
-                    case "post-transition metal":
-                        colorArr[4*118+i]=("#cccccc")
-                        break
-                    case "lanthanide":
-                        colorArr[4*118+i]=("#abcdff")
-                        break
-                    case "actinide":
-                        colorArr[4*118+i]=("#dcbaff")
-                        break
-                    case "unknonw":
-                        colorArr[4*118+i]=("#ffffff")
-                        break
-                    default:
-                        colorArr[4*118+i]=("#999999")
+                case "diatomic nonmetal":
+                    colorArr[4*118+i]=("#ff22ff")
+                    break
+                case "polyatomic nonmetal":
+                    colorArr[4*118+i]=("#ff55ff")
+                    break
+                case "alkali metal":
+                    colorArr[4*118+i]=("#22ffff")
+                    break
+                case "alkaline earth metal":
+                    colorArr[4*118+i]=("#aaffff")
+                    break
+                case "metal":
+                    colorArr[4*118+i]=("#ffff22")
+                    break
+                case "transition metal":
+                    colorArr[4*118+i]=("#ffffaa")
+                    break
+                case "metalloid":
+                    colorArr[4*118+i]=("#e0e0e0")
+                    break
+                case "noble gas":
+                    colorArr[4*118+i]=("#22ff22")
+                    break
+                case "post-transition metal":
+                    colorArr[4*118+i]=("#cccccc")
+                    break
+                case "lanthanide":
+                    colorArr[4*118+i]=("#abcdff")
+                    break
+                case "actinide":
+                    colorArr[4*118+i]=("#dcbaff")
+                    break
+                case "unknonw":
+                    colorArr[4*118+i]=("#ffffff")
+                    break
+                default:
+                    colorArr[4*118+i]=("#999999")
                     break
                 }
             }
@@ -200,20 +200,8 @@ Page {
                 Repeater {
                     anchors.fill: parent
                     model: 2
-                    delegate: Rectangle {
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: {
-                                elementPage.elementNumber =index
-                                pageStack.push(elementPage)
-                            }
-                        }
-                        width: Screen.height /20
-                        height: Screen.height /20
-                        color: colorList.colors[table.colorScheme*118+index]
-                        Text {
-                            text: qsTr(elements.naturalElements[index])
-                        }
+                    delegate: TableComponent{
+                        num: index
                     }
                 }
             }
@@ -223,20 +211,8 @@ Page {
                 Repeater{
                     anchors.fill: parent
                     model: 2
-                    delegate: Rectangle {
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: {
-                                elementPage.elementNumber =index+2
-                                pageStack.push(elementPage)
-                            }
-                        }
-                        width: Screen.height /20
-                        height: Screen.height /20
-                        color: colorList.colors[table.colorScheme*118+index+2]
-                        Text {
-                            text: elements.naturalElements[index+2]
-                        }
+                    delegate: TableComponent{
+                        num: index+2
                     }
                 }
 
@@ -281,20 +257,8 @@ Page {
                 Repeater {
                     anchors.fill: parent
                     model: 6
-                    delegate: Rectangle {
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: {
-                                elementPage.elementNumber = index+4
-                                pageStack.push(elementPage)
-                            }
-                        }
-                        width: Screen.height /20
-                        height: Screen.height /20
-                        color: colorList.colors[table.colorScheme*118+index+4]
-                        Text {
-                            text: elements.naturalElements[index+4]
-                        }
+                    delegate: TableComponent{
+                        num: index+4
                     }
                 }
             }
@@ -304,20 +268,8 @@ Page {
                 Repeater {
                     anchors.fill: parent
                     model: 2
-                    delegate: Rectangle {
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: {
-                                elementPage.elementNumber =index+10
-                                pageStack.push(elementPage)
-                            }
-                        }
-                        width: Screen.height /20
-                        height: Screen.height /20
-                        color: colorList.colors[table.colorScheme*118+index+10]
-                        Text {
-                            text: elements.naturalElements[index+10]
-                        }
+                    delegate: TableComponent{
+                        num: index+10
                     }
                 }
                 Repeater {
@@ -332,20 +284,8 @@ Page {
                 Repeater {
                     anchors.fill: parent
                     model: 6
-                    delegate: Rectangle {
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: {
-                                elementPage.elementNumber =index+12
-                                pageStack.push(elementPage)
-                            }
-                        }
-                        width: Screen.height /20
-                        height: Screen.height /20
-                        color: colorList.colors[table.colorScheme*118+index+12]
-                        Text {
-                            text: elements.naturalElements[index+12]
-                        }
+                    delegate: TableComponent{
+                        num: index+12
                     }
                 }
             }
@@ -357,20 +297,8 @@ Page {
                 Repeater {
                     anchors.fill: parent
                     model: 18
-                    delegate: Rectangle {
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: {
-                                elementPage.elementNumber =index+18
-                                pageStack.push(elementPage)
-                            }
-                        }
-                        width: Screen.height /20
-                        height: Screen.height /20
-                        color: colorList.colors[table.colorScheme*118+index+18]
-                        Text {
-                            text: elements.naturalElements[index+18]
-                        }
+                    delegate: TableComponent{
+                        num: index+18
                     }
                 }
             }
@@ -380,20 +308,8 @@ Page {
                 Repeater {
                     anchors.fill: parent
                     model: 18
-                    delegate: Rectangle {
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: {
-                                elementPage.elementNumber =index+36
-                                pageStack.push(elementPage)
-                            }
-                        }
-                        width: Screen.height /20
-                        height: Screen.height /20
-                        color: colorList.colors[table.colorScheme*118+index+36]
-                        Text {
-                            text: elements.naturalElements[index+36]
-                        }
+                    delegate: TableComponent{
+                        num: index+36
                     }
                 }
             }
@@ -403,81 +319,34 @@ Page {
                 Repeater {
                     anchors.fill: parent
                     model: 3
-                    delegate: Rectangle {
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: {
-                                elementPage.elementNumber =index+54
-                                pageStack.push(elementPage)
-                            }
-                        }
-                        width: Screen.height /20
-                        height: Screen.height /20
-                        color: colorList.colors[table.colorScheme*118+index+54]
-                        Text {
-                            text: elements.naturalElements[index+54]
+                    delegate: TableComponent{
+                        num: index+54
+                    }
+                }
+                    Repeater {
+                        anchors.fill: parent
+                        model: 15
+                        delegate: TableComponent{
+                            num: index+71
                         }
                     }
                 }
-                Repeater {
-                    anchors.fill: parent
-                    model: 15
-                    delegate: Rectangle {
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: {
-                                elementPage.elementNumber =index+71
-                                pageStack.push(elementPage)
-                            }
-                        }
-                        width: Screen.height /20
-                        height: Screen.height /20
-                        color: colorList.colors[table.colorScheme*118+index+71]
-                        Text {
-                            text: elements.naturalElements[index+71]
-                        }
-                    }
-                }
-            }
+
             Row {
                 spacing: 1
                 height: Screen.height /20
                 Repeater {
                     anchors.fill: parent
                     model: 3
-                    delegate: Rectangle {
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: {
-                                elementPage.elementNumber =index+86
-                                pageStack.push(elementPage)
-                            }
-                        }
-                        width: Screen.height /20
-                        height: Screen.height /20
-                        color: colorList.colors[table.colorScheme*118+index+86]
-                        Text {
-                            text: elements.naturalElements[index+86]
-                        }
+                    delegate: TableComponent{
+                        num: index+86
                     }
                 }
                 Repeater {
                     anchors.fill: parent
                     model: 15
-                    delegate: Rectangle {
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: {
-                                elementPage.elementNumber =index+103
-                                pageStack.push(elementPage)
-                            }
-                        }
-                        width: Screen.height /20
-                        height: Screen.height /20
-                        color: colorList.colors[table.colorScheme*118+index+103]
-                        Text {
-                            text: elements.naturalElements[index+103]
-                        }
+                    delegate: TableComponent{
+                        num: index+103
                     }
                 }
             }
@@ -500,20 +369,8 @@ Page {
                 Repeater {
                     anchors.fill: parent
                     model: 15
-                    delegate: Rectangle {
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: {
-                                elementPage.elementNumber = index+56
-                                pageStack.push(elementPage)
-                            }
-                        }
-                        width: Screen.height /20
-                        height: Screen.height /20
-                        color: colorList.colors[table.colorScheme*118+index+56]
-                        Text {
-                            text: elements.naturalElements[index+56]
-                        }
+                    delegate: TableComponent{
+                        num: index+56
                     }
                 }
             }
@@ -528,23 +385,13 @@ Page {
                 Repeater {
                     anchors.fill: parent
                     model: 15
-                    delegate: Rectangle {
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: {
-                                elementPage.elementNumber =index+88
-                                pageStack.push(elementPage)
-                            }
-                        }
-                        width: Screen.height /20
-                        height: Screen.height /20
-                        color: colorList.colors[table.colorScheme*118+index+88]
-                        Text {
-                            text: elements.naturalElements[index+88]
-                        }
+                    delegate: TableComponent{
+                        num: index+88
                     }
                 }
             }
         }
     }
 }
+
+
