@@ -5,7 +5,7 @@
     <name>AboutPage</name>
     <message>
         <source>License: GPLv3 or later</source>
-        <translation>许可协议: GPLv3及以后版本i</translation>
+        <translation>许可协议: GPLv3及以后版本</translation>
     </message>
     <message>
         <source>Atom data:</source>
