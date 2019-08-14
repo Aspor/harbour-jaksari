@@ -1,8 +1,9 @@
 # harbour-jaksari
-Periodic table for SailfishOS with element properties and different color schemes
-
-Temperatures such as boiling points and melting points are given in degrees kelvin. Densities are given in g/L and molar heat in (mol*K) 
-
-
+Periodic table for SailfishOS with element properties and different colour schemes.
+Application can be found from OpenRepos: https://openrepos.net/content/aspor/jaksari and Jolla store
 
 Atom data is from https://github.com/Bowserinator/Periodic-Table-JSON
+
+Supported languages: English, Finnish, Swedish
+
+Translations are welcome
