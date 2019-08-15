@@ -279,7 +279,7 @@
     </message>
     <message>
         <source>Meitnerium</source>
-        <translation>鿏</translation>
+        <translation>䥑</translation>
     </message>
     <message>
         <source>Sodium</source>
@@ -419,7 +419,7 @@
     </message>
     <message>
         <source>Hassium</source>
-        <translation>䥑</translation>
+        <translation>𨭆</translation>
     </message>
     <message>
         <source>Titanium</source>
