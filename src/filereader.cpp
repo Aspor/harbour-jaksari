@@ -72,8 +72,14 @@ void FileReader::setElementNum(int num) {
             break;
         case 10:
             v = value.toDouble();
-            if( v!=0)
-                m_values.push_back(locale.toString(v) + " g/l");
+            if( v!=0){
+                if(m_element.value("phase")=="Gas"){
+                    m_values.push_back(locale.toString(v) + " g/l");
+                }
+                else {
+                    m_values.push_back(locale.toString(v) + " g/cm³");
+                }
+            }
             else {
                 m_values.push_back("");
             }
