@@ -4,6 +4,6 @@ Application can be found from OpenRepos: https://openrepos.net/content/aspor/jak
 
 Atom data is from https://github.com/Bowserinator/Periodic-Table-JSON
 
-Supported languages: English, Finnish, Swedish
+Supported languages: English, Finnish, Swedish, Chinese
 
 Translations are welcome
