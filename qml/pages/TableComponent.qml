@@ -12,10 +12,11 @@ Rectangle {
                 pageStack.push(elementPage)
             }
         }
-        width: Screen.height /20
-        height: Screen.height /20
+        width: table.rectangleSize
+        height: table.rectangleSize
         color: colorList.colors[table.colorScheme*118+num]
         Text {
+            anchors.centerIn: parent
             property var sym: {
                 var s='';
                 if(Qt.locale().name == 'zh_CN'){
@@ -26,7 +27,8 @@ Rectangle {
                 }
                 return s;
             }
-            text: sym
+            textFormat: Text.StyledText
+            text: '<font size="1">'+(num+1)+'</font><br><font size="5"> ' + sym +'</font>'
         }
 
 }

@@ -190,26 +190,30 @@ Page {
         anchors.fill: parent
         leftMargin: Theme.paddingLarge
         property int colorScheme: 0
+        property int rectangleSize: Screen.height/19
         Column {
-            spacing: 5
-            x: 25
-            y: 25
+            spacing: 1
+            x: 0
+            y: 35
+            //First period
             Row {
-                spacing:  16*Screen.height/20 +17
-                height: Screen.height /20
+                spacing:  16*table.rectangleSize +17
+                height: table.rectangleSize
                 Repeater {
-                    anchors.fill: parent
+
                     model: 2
                     delegate: TableComponent{
                         num: index
                     }
                 }
             }
+
+            //2. period
             Row {
                 spacing: 1
-                height: Screen.height /20
+                height: table.rectangleSize
                 Repeater{
-                    anchors.fill: parent
+
                     model: 2
                     delegate: TableComponent{
                         num: index+2
@@ -217,18 +221,18 @@ Page {
                 }
 
                 Repeater {
-                    anchors.fill: parent
+
                     model: 1
                     delegate: Rectangle {
-                        width: Screen.height /20
+                        width: table.rectangleSize
                         height: 1
                         color: "transparent"
                     }
                 }
                 Rectangle {
-                    width: Screen.height /20
+                    width: table.rectangleSize
                     height: colorSchemeLabel.height
-                    y: -Screen.height /20
+                    y: -table.rectangleSize
                     //opacity: 1
                     color: "transparent"
                     Rectangle {
@@ -246,43 +250,45 @@ Page {
                     }
                 }
                 Repeater {
-                    anchors.fill: parent
+
                     model: 8
                     delegate: Rectangle {
-                        width: Screen.height /20
-                        height: Screen.height /20
+                        width: table.rectangleSize
+                        height: table.rectangleSize
                         color: "transparent"
                     }
                 }
                 Repeater {
-                    anchors.fill: parent
+
                     model: 6
                     delegate: TableComponent{
                         num: index+4
                     }
                 }
             }
+
+            //3. period
             Row {
                 spacing: 1
-                height: Screen.height /20
+                height: table.rectangleSize
                 Repeater {
-                    anchors.fill: parent
+
                     model: 2
                     delegate: TableComponent{
                         num: index+10
                     }
                 }
                 Repeater {
-                    anchors.fill: parent
+
                     model: 10
                     delegate: Rectangle {
-                        width: Screen.height /20
-                        height: Screen.height /20
+                        width: table.rectangleSize
+                        height: table.rectangleSize
                         color: "transparent"
                     }
                 }
                 Repeater {
-                    anchors.fill: parent
+
                     model: 6
                     delegate: TableComponent{
                         num: index+12
@@ -290,100 +296,143 @@ Page {
                 }
             }
 
-
+            //4. period
             Row {
                 spacing: 1
-                height: Screen.height /20
+                height: table.rectangleSize
                 Repeater {
-                    anchors.fill: parent
+
                     model: 18
                     delegate: TableComponent{
                         num: index+18
                     }
                 }
             }
+
+            //5. period
             Row {
                 spacing: 1
-                height: Screen.height /20
+                height: table.rectangleSize
                 Repeater {
-                    anchors.fill: parent
+
                     model: 18
                     delegate: TableComponent{
                         num: index+36
                     }
                 }
             }
+
+            //6. period
             Row {
                 spacing: 1
-                height: Screen.height /20
+                height: table.rectangleSize
                 Repeater {
-                    anchors.fill: parent
-                    model: 3
+
+                    model: 2
                     delegate: TableComponent{
                         num: index+54
                     }
                 }
-                    Repeater {
-                        anchors.fill: parent
-                        model: 15
-                        delegate: TableComponent{
-                            num: index+71
-                        }
+                //Lanthane
+                Rectangle{
+                    width: table.rectangleSize
+                    height: table.rectangleSize
+                    color: "grey"
+                    opacity: 0.5
+                    Text {
+                        anchors.centerIn: parent
+                        textFormat: Text.StyledText
+                        text: '<font size="2">57 - 71</font>'
                     }
                 }
 
+                Repeater {
+
+                    model: 15
+                    delegate: TableComponent{
+                        num: index+71
+                    }
+                }
+            }
+
+            //7. period
             Row {
                 spacing: 1
-                height: Screen.height /20
+                height: table.rectangleSize
                 Repeater {
-                    anchors.fill: parent
-                    model: 3
+
+                    model: 2
                     delegate: TableComponent{
                         num: index+86
                     }
                 }
+                Rectangle{
+                    width: table.rectangleSize
+                    height: table.rectangleSize
+                    color: "darkgrey"
+                    opacity: 0.5
+                    Text {
+                        anchors.centerIn: parent
+                        textFormat: Text.StyledText
+                        text: '<font size="2">89 - 103</font>'
+                    }
+                }
                 Repeater {
-                    anchors.fill: parent
+
                     model: 15
                     delegate: TableComponent{
                         num: index+103
                     }
                 }
             }
+
+            //Empty row
             Row {
-                height: Screen.height /20
+                height: table.rectangleSize/1.5
                 Rectangle{
                     width: Screen.width
-                    height: Screen.height /20
+                    height: table.rectangleSize/1.5
                     color: "transparent"
                 }
             }
+
+            //Lanthanoids
             Row {
                 spacing: 1
-                height: Screen.height /20
+                height: table.rectangleSize
                 Rectangle {
-                    width: Screen.width /10
-                    height: Screen.height /20
+                    width: table.rectangleSize*1.5
+                    height: table.rectangleSize
                     color: "transparent"
                 }
                 Repeater {
-                    anchors.fill: parent
+
                     model: 15
                     delegate: TableComponent{
                         num: index+56
                     }
                 }
             }
+            //Empty row
+            Row {
+                height: table.rectangleSize/10
+                Rectangle{
+                    width: Screen.width
+                    height: table.rectangleSize/10
+                    color: "transparent"
+                }
+            }
+            //Actinoids
             Row {
                 spacing: 1
-                height: Screen.height /20
+                height: table.rectangleSize
                 Rectangle {
-                    width: Screen.width /10
-                    height: Screen.height /20
+                    width: table.rectangleSize*1.5
+                    height: table.rectangleSize
                     color: "transparent"
                 }
                 Repeater {
-                    anchors.fill: parent
+
                     model: 15
                     delegate: TableComponent{
                         num: index+88

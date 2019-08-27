@@ -4,10 +4,6 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <source>About PeciodicTable</source>
-        <translation>Om periodiska systemet</translation>
-    </message>
-    <message>
         <source>License: GPLv3 or later</source>
         <translation>Licens: GPLv3 eller senare</translation>
     </message>
@@ -23,79 +19,16 @@
         <source>About Jaksari</source>
         <translation>Om Jaksari</translation>
     </message>
-</context>
-<context>
-    <name>CoverPage</name>
     <message>
-        <source>Periodic table</source>
-        <translation>Periodiska systemet</translation>
+        <source>Version</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ElementDataPage</name>
     <message>
-        <source>EDS lines</source>
-        <translation>EDS</translation>
-    </message>
-    <message>
-        <source>EELS edges</source>
-        <translation>EELS</translation>
-    </message>
-    <message>
         <source>General Properties</source>
         <translation>Allmänna egenskaper</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation>Namn</translation>
-    </message>
-    <message>
-        <source>Symbol</source>
-        <translation>Tecken</translation>
-    </message>
-    <message>
-        <source>Atomic number</source>
-        <translation>Atomnummer</translation>
-    </message>
-    <message>
-        <source>Series</source>
-        <translation>Serie</translation>
-    </message>
-    <message>
-        <source>Atomic mass</source>
-        <translation>Relativ atommassa</translation>
-    </message>
-    <message>
-        <source>Physical properties</source>
-        <translation>Fysikaliska egenskaper</translation>
-    </message>
-    <message>
-        <source>Boiling point</source>
-        <translation>Kokpunkt</translation>
-    </message>
-    <message>
-        <source>Melting point</source>
-        <translation>Smältpunkt</translation>
-    </message>
-    <message>
-        <source>Density</source>
-        <translation>Densitet</translation>
-    </message>
-    <message>
-        <source>Phase</source>
-        <translation>Aggregationstillstånd</translation>
-    </message>
-    <message>
-        <source>Electronic properties</source>
-        <translation>Elektroniska egenskaper</translation>
-    </message>
-    <message>
-        <source>Electron configuration</source>
-        <translation>Elektronkonfiguration</translation>
-    </message>
-    <message>
-        <source>Oxidation states</source>
-        <translation>Oxidationstillstånd</translation>
     </message>
     <message>
         <source>Wikipedia link</source>
@@ -469,10 +402,6 @@
         <translation>Halvmetall</translation>
     </message>
     <message>
-        <source>Folorless gas, exhibiting a blue glow when placed in a high voltage electric field</source>
-        <translation>Färglös gas, uppvisar en blå glöd när den placeras i ett elektriskt högspänningsfält</translation>
-    </message>
-    <message>
         <source>Thulium</source>
         <translation>Tulium</translation>
     </message>
@@ -679,10 +608,6 @@
     <message>
         <source>William Ramsay</source>
         <translation>William Ramsay</translation>
-    </message>
-    <message>
-        <source>lanthanide</source>
-        <translation>Samarium</translation>
     </message>
     <message>
         <source>Isotopes of cadmium</source>
@@ -1295,6 +1220,18 @@
     <message>
         <source>Ionization energies</source>
         <translation>Jonisationspotential</translation>
+    </message>
+    <message>
+        <source>Colorless gas, exhibiting a blue glow when placed in a high voltage electric field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lanthanide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>undefined</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

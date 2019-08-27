@@ -12,6 +12,12 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Tue Aug 27 2019 Timo Mäenpää 1.0.0-1
+- Better formating of table elements
+- Clearer placemnt Lanthanoids and Actionids in table
+- Added version number to about page #10
+- Allow all orientations in about page #9
+
 * Fri Aug 16 2019 Timo Mäenpää 0.2.2-1
 - Fixed units for solid and liquid elements
 - Update Chinese translation

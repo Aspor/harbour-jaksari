@@ -19,6 +19,10 @@
         <source>About Jaksari</source>
         <translation>Jaksarista</translation>
     </message>
+    <message>
+        <source>Version</source>
+        <translation>Velrsio</translation>
+    </message>
 </context>
 <context>
     <name>ElementDataPage</name>

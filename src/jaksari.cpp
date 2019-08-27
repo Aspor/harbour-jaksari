@@ -19,6 +19,12 @@
 
 int main(int argc, char *argv[])
 {
+
     qmlRegisterType<FileReader>("utils", 1, 0, "FileReader");
-    SailfishApp::main(argc, argv);
+    QGuiApplication* app = SailfishApp::application(argc, argv);
+    app->setApplicationVersion(APP_VERSION);
+    QQuickView* view = SailfishApp::createView();
+    view->setSource(SailfishApp::pathTo("qml/harbour-jaksari.qml"));
+    view->show();
+    return app->exec();
 }

@@ -46,7 +46,6 @@ ApplicationWindow
         onElementNumberChanged: {
             cover.changeElement(elementPage.values)
         }
-        dataFile: dataFile
     }
     AboutPage {
         id: aboutPage

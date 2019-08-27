@@ -56,3 +56,6 @@ include(translations/translations.pri)
 
 
 RESOURCES = qml/pages/data.qrc
+
+DEFINES+=APP_VERSION=\\\"$$VERSION\\\"
+

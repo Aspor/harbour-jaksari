@@ -19,6 +19,10 @@
         <source>About Jaksari</source>
         <translation>关于 Jaksari</translation>
     </message>
+    <message>
+        <source>Version</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ElementDataPage</name>
@@ -323,7 +327,7 @@
     </message>
     <message>
         <source>Tennessine</source>
-       <translation>Tennessine</translation>
+        <translation>Tennessine</translation>
     </message>
     <message>
         <source>Metallic yellow</source>

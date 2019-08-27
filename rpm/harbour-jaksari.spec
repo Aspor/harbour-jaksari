@@ -13,7 +13,7 @@ Name:       harbour-jaksari
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Periodic table for sailfishOS
-Version:    0.2.2
+Version:    1.0.0
 Release:    1
 Group:      Applications/Productivity
 License:    ISC license
@@ -41,7 +41,8 @@ Periodic table with element properties
 # >> build pre
 # << build pre
 
-%qtc_qmake5 
+%qtc_qmake5  \
+    VERSION='%{version}'
 
 %qtc_make %{?_smp_mflags}
 

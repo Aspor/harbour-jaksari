@@ -17,6 +17,7 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 
 Page {
+    allowedOrientations: Orientation.All
     SilicaFlickable {
 	anchors.fill: parent
 	Column {
@@ -32,15 +33,22 @@ Page {
             Label {
                 width: parent.width
                 font.pixelSize: Theme.fontSizeSmall
+                text: qsTr('Version')+': '+ Qt.application.version
+            }
+
+            Label {
+                width: parent.width
+                font.pixelSize: Theme.fontSizeSmall
                 text: '© 2019 Timo Mäenpää'
             } 
+
             Label {
                 font.pixelSize: Theme.fontSizeSmall
                 text: qsTr('License: GPLv3 or later')
             } 
             Label {
                 font.pixelSize: Theme.fontSizeSmall
-                text: qsTr('Atom data: ')+  '<html><style type="text/css"></style><a href="https://www.wikipedia.org/">www.wikipedia.org/</a></html> ' + qsTr('and') +' '
+                text: qsTr('Atom data:')+  ' <html><style type="text/css"></style><a href="https://www.wikipedia.org/">www.wikipedia.org/</a></html> ' + qsTr('and') +' '
                 onLinkActivated: Qt.openUrlExternally('https://www.wikipedia.org/')
             } 
             Label {
