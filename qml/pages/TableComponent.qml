@@ -28,6 +28,7 @@ Rectangle {
                 return s;
             }
             textFormat: Text.StyledText
+            font.pixelSize: table.rectangleSize/3
             text: '<font size="1">'+(num+1)+'</font><br><font size="5"> ' + sym +'</font>'
         }
 

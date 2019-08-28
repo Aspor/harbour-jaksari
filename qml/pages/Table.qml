@@ -342,6 +342,7 @@ Page {
                     Text {
                         anchors.centerIn: parent
                         textFormat: Text.StyledText
+                        font.pixelSize: table.rectangleSize/3
                         text: '<font size="2">57 - 71</font>'
                     }
                 }
@@ -374,6 +375,7 @@ Page {
                     Text {
                         anchors.centerIn: parent
                         textFormat: Text.StyledText
+                        font.pixelSize: table.rectangleSize/3
                         text: '<font size="2">89 - 103</font>'
                     }
                 }

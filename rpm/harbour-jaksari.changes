@@ -12,6 +12,10 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Wed Aug 28 2019 Timo Mäenpää 1.0.1-1
+- Added font scaling to table view fixing #12
+
+
 * Tue Aug 27 2019 Timo Mäenpää 1.0.0-1
 - Better formating of table elements
 - Clearer placemnt Lanthanoids and Actionids in table
