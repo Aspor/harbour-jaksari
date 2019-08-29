@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="ru" sourcelanguage="en">
 <context>
     <name>AboutPage</name>
     <message>
@@ -1233,6 +1233,39 @@
     <message>
         <source>undefined</source>
         <translation>пусто</translation>
+    </message>
+</context>
+<context>
+    <name>FileReader</name>
+    <message>
+        <source>K</source>
+        <extracomment>Unit, Kelvins</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>g/mol</source>
+        <extracomment>Unit, grams per mole</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>g/l</source>
+        <extracomment>Unit, grams per liter</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>g/cm³</source>
+        <extracomment>Unit, grams per cubic centimeter</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>J/(mol·K)</source>
+        <extracomment>Unit, Joules per ( mole * Kelvin )</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>kJ/mol</source>
+        <extracomment>Unit, Kilojoules per mole</extracomment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

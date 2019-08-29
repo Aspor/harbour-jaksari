@@ -2,7 +2,8 @@ TRANSLATION_SOURCES += ../src
 
 TRANSLATIONS = translations/harbour-jaksari-fi.ts \
                translations/harbour-jaksari-sv.ts \
-               translations/harbour-jaksari-zh_CN.ts
+               translations/harbour-jaksari-zh_CN.ts\
+               translations/harbour-jaksari-ru.ts
 
 updateqm.input = TRANSLATIONS
 updateqm.output = translations/${QMAKE_FILE_BASE}.qm
