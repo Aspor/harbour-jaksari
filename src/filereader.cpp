@@ -57,7 +57,8 @@ void FileReader::setElementNum(int num) {
         case 11: case 12:
             v = value.toDouble();
             if( v!=0)
-                m_values.push_back(locale.toString(v) + " K");
+                //: Unit, Kelvins
+                m_values.push_back(locale.toString(v) +' '+ tr("K"));
             else {
                 m_values.push_back("");
             }
@@ -65,7 +66,8 @@ void FileReader::setElementNum(int num) {
         case 9:
             v = value.toDouble();
             if( v!=0)
-                m_values.push_back(locale.toString(v) + " g/mol");
+                //: Unit, grams per mole
+                m_values.push_back(locale.toString(v) +' '+ tr("g/mol"));
             else {
                 m_values.push_back("");
             }
@@ -73,11 +75,13 @@ void FileReader::setElementNum(int num) {
         case 10:
             v = value.toDouble();
             if( v!=0){
+                //: Unit, grams per liter
                 if(m_element.value("phase")=="Gas"){
-                    m_values.push_back(locale.toString(v) + " g/l");
+                    m_values.push_back(locale.toString(v) +' '+ tr("g/l"));
                 }
                 else {
-                    m_values.push_back(locale.toString(v) + " g/cm³");
+                    //: Unit, grams per cubic centimeter
+                    m_values.push_back(locale.toString(v) +' '+ tr("g/cm³"));
                 }
             }
             else {
@@ -87,7 +91,8 @@ void FileReader::setElementNum(int num) {
         case 13:
             v = value.toDouble();
             if( v!=0)
-                m_values.push_back(locale.toString(v) + " J/(mol·K)");
+                //: Unit, Joules per ( mole * Kelvin )
+                m_values.push_back(locale.toString(v) +' '+ tr("J/(mol·K)"));
             else {
                 m_values.push_back("");
             }
@@ -95,7 +100,8 @@ void FileReader::setElementNum(int num) {
         case 14:
             v = value.toDouble();
             if( v!=0)
-                m_values.push_back(locale.toString(v) + " kJ/mol");
+                //: Unit, Kilojoules per mole
+                m_values.push_back(locale.toString(v) +' '+ tr("kJ/mol"));
             else {
                 m_values.push_back("");
             }
@@ -107,7 +113,8 @@ void FileReader::setElementNum(int num) {
             }
             if(s.length()>0){
                 s.remove(s.length()-2,2);
-                s+=" kJ/mol";
+                //: Unit, Kilojoules per mole
+                s+= tr("kJ/mol");
             }
             else {
                s="";
