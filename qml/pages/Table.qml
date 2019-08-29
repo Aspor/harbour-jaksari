@@ -343,7 +343,7 @@ Page {
                         anchors.centerIn: parent
                         textFormat: Text.StyledText
                         font.pixelSize: table.rectangleSize/3
-                        text: '<font size="2">57 - 71</font>'
+                        text: '<font size="2">' + Number(57).toLocaleString(Qt.locale())+' - '+Number(71).toLocaleString(Qt.locale()) +'</font>'
                     }
                 }
 
@@ -376,7 +376,7 @@ Page {
                         anchors.centerIn: parent
                         textFormat: Text.StyledText
                         font.pixelSize: table.rectangleSize/3
-                        text: '<font size="2">89 - 103</font>'
+                        text: '<font size="2">' + Number(89).toLocaleString(Qt.locale())+' - '+Number(103).toLocaleString(Qt.locale()) +'</font>'
                     }
                 }
                 Repeater {

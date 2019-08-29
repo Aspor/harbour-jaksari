@@ -29,7 +29,7 @@ Rectangle {
             }
             textFormat: Text.StyledText
             font.pixelSize: table.rectangleSize/3
-            text: '<font size="1">'+(num+1)+'</font><br><font size="5"> ' + sym +'</font>'
+            text: '<font size="1">'+ Number((num+1)).toLocaleString(Qt.locale(),'f',0)+'</font><br><font size="5"> ' + sym +'</font>'
         }
 
 }

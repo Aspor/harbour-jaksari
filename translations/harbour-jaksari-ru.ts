@@ -1,1237 +1,1238 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="zh_CN" sourcelanguage="en">
+<TS version="2.1" language="ru" sourcelanguage="en">
 <context>
     <name>AboutPage</name>
     <message>
-        <source>License: GPLv3 or later</source>
-        <translation>许可协议: GPLv3及以后版本</translation>
-    </message>
-    <message>
-        <source>Atom data:</source>
-        <translation>原子数据:</translation>
-    </message>
-    <message>
-        <source>and</source>
-        <translation>及</translation>
-    </message>
-    <message>
         <source>About Jaksari</source>
-        <translation>关于 Jaksari</translation>
+        <translation>О программе Jaksari</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>版本</translation>
+        <translation>Версия</translation>
+    </message>
+    <message>
+        <source>License: GPLv3 or later</source>
+        <translation>Лицензия: GPLv3 или новее</translation>
+    </message>
+    <message>
+        <source>Atom data:</source>
+        <translation>Описания элементов:</translation>
+    </message>
+    <message>
+        <source>and</source>
+        <translation>и</translation>
     </message>
 </context>
 <context>
     <name>ElementDataPage</name>
     <message>
+        <source>Element details</source>
+        <translation>Свойства элемента</translation>
+    </message>
+    <message>
         <source>General Properties</source>
-        <translation>一般性质</translation>
-    </message>
-    <message>
-        <source>Wikipedia link</source>
-        <translation>维基百科链接</translation>
-    </message>
-    <message>
-        <source>https://en.wikipedia.org/wiki/</source>
-        <translation>https://zh.wikipedia.org/wiki/</translation>
+        <translation>Общие</translation>
     </message>
     <message>
         <source>Physical Properties</source>
-        <translation>物理性质</translation>
+        <translation>Физические</translation>
     </message>
     <message>
         <source>Electronic Properties</source>
-        <translation>电子性质</translation>
+        <translation>Электронные</translation>
     </message>
     <message>
         <source>More info</source>
-        <translation>更多信息</translation>
+        <translation>Дополнительно</translation>
     </message>
     <message>
-        <source>Element details</source>
-        <translation>元素详情</translation>
+        <source>Wikipedia link</source>
+        <translation>Ссылка в Wikipedia</translation>
+    </message>
+    <message>
+        <source>https://en.wikipedia.org/wiki/</source>
+        <translation>https://en.wikipedia.org/wiki/</translation>
     </message>
 </context>
 <context>
     <name>ElementDetails</name>
     <message>
         <source>Name</source>
-        <translation>名称</translation>
+        <translation>Название</translation>
     </message>
     <message>
         <source>Symbol</source>
-        <translation>符号</translation>
-    </message>
-    <message>
-        <source>Atomic mass</source>
-        <translation>相对原子质量</translation>
+        <translation>Символ</translation>
     </message>
     <message>
         <source>Number</source>
-        <translation>序数</translation>
-    </message>
-    <message>
-        <source>Category</source>
-        <translation>分类</translation>
-    </message>
-    <message>
-        <source>Phase</source>
-        <translation>态</translation>
-    </message>
-    <message>
-        <source>Density</source>
-        <translation>密度</translation>
-    </message>
-    <message>
-        <source>Boil</source>
-        <translation>沸点</translation>
-    </message>
-    <message>
-        <source>Melt</source>
-        <translation>熔点</translation>
-    </message>
-    <message>
-        <source>Molar heat</source>
-        <translation>摩尔热容</translation>
-    </message>
-    <message>
-        <source>Electron affinity</source>
-        <translation>电子亲合能</translation>
-    </message>
-    <message>
-        <source>Electronegativity pauling</source>
-        <translation>鲍林电负性</translation>
-    </message>
-    <message>
-        <source>Electron configuration</source>
-        <translation>电子构型/电子排布</translation>
+        <translation>Номер</translation>
     </message>
     <message>
         <source>Period</source>
-        <translation>周期</translation>
+        <translation>Период</translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation>Категория</translation>
     </message>
     <message>
         <source>Appearance</source>
-        <translation>外观</translation>
+        <translation>Внешний вид (цвет)</translation>
     </message>
     <message>
         <source>Discovered by</source>
-        <translation>发现者为</translation>
+        <translation>Первооткрыватель</translation>
     </message>
     <message>
         <source>Named by</source>
-        <translation>命名者为</translation>
+        <translation>Кем назван</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Агрегатное состояние</translation>
+    </message>
+    <message>
+        <source>Atomic mass</source>
+        <translation>Атомная масса</translation>
+    </message>
+    <message>
+        <source>Density</source>
+        <translation>Плотность</translation>
+    </message>
+    <message>
+        <source>Boil</source>
+        <translation>Температура кипения</translation>
+    </message>
+    <message>
+        <source>Melt</source>
+        <translation>Температура плавления</translation>
+    </message>
+    <message>
+        <source>Molar heat</source>
+        <translation>Молярная теплоёмкость</translation>
+    </message>
+    <message>
+        <source>Electron affinity</source>
+        <translation>Сродство к электрону</translation>
+    </message>
+    <message>
+        <source>Electronegativity pauling</source>
+        <translation>Электроотрицательность Полинга</translation>
+    </message>
+    <message>
+        <source>Electron configuration</source>
+        <translation>Электронная конфигурация</translation>
     </message>
     <message>
         <source>Ionization energies</source>
-        <translation>电离能</translation>
+        <translation>Энергия ионизации</translation>
     </message>
     <message>
         <source>Unknown, before 3000 BC</source>
-        <translation>在3000年前未知</translation>
+        <translation>Неизвестно, более 3000 до н.э.</translation>
     </message>
     <message>
         <source>Samarium</source>
-        <translation>钐</translation>
+        <translation>Самарий</translation>
     </message>
     <message>
         <source>Karl Ernst Claus</source>
-        <translation type="unfinished"></translation>
+        <translation>Karl Ernst Claus</translation>
     </message>
     <message>
         <source>Per Teodor Cleve</source>
-        <translation type="unfinished"></translation>
+        <translation>Per Teodor Cleve</translation>
     </message>
     <message>
         <source>Iridium</source>
-        <translation>铱</translation>
+        <translation>Иридий</translation>
     </message>
     <message>
         <source>Neptunium</source>
-        <translation>镎</translation>
+        <translation>Нептуний</translation>
     </message>
     <message>
         <source>Henry Cavendish</source>
-        <translation type="unfinished"></translation>
+        <translation>Henry Cavendish</translation>
     </message>
     <message>
         <source>Smithson Tennant</source>
-        <translation type="unfinished"></translation>
+        <translation>Smithson Tennant</translation>
     </message>
     <message>
-        <source>Jöns Jacob Berzelius</source>
-        <translation type="unfinished"></translation>
+        <source>J&#xf6;ns Jacob Berzelius</source>
+        <translation>Jöns Jacob Berzelius</translation>
     </message>
     <message>
         <source>Silvery lustrous gray</source>
-        <translation>银色且有光泽的灰色</translation>
+        <translation>Серебристо-серый, блестящий</translation>
     </message>
     <message>
         <source>Grayish-white</source>
-        <translation>灰白色</translation>
+        <translation>Серовато-белый</translation>
     </message>
     <message>
         <source>Neodymium</source>
-        <translation>钕</translation>
+        <translation>Неодим</translation>
     </message>
     <message>
         <source>Silvery, often with black tarnish</source>
-        <translation>银色，常伴有黑色暗锈</translation>
+        <translation>Серебристый, часто с черным налетом</translation>
     </message>
     <message>
         <source>Bromine</source>
-        <translation>溴</translation>
+        <translation>Бром</translation>
     </message>
     <message>
         <source>Marguerite Perey</source>
-        <translation type="unfinished"></translation>
+        <translation>Marguerite Perey</translation>
     </message>
     <message>
         <source>Georges Urbain</source>
-        <translation type="unfinished"></translation>
+        <translation>Georges Urbain</translation>
     </message>
     <message>
         <source>Niobium</source>
-        <translation>铌</translation>
+        <translation>Ниобий</translation>
     </message>
     <message>
         <source>Tantalum</source>
-        <translation>钽</translation>
+        <translation>Тантал</translation>
     </message>
     <message>
-        <source>Antoine Jérôme Balard</source>
-        <translation type="unfinished"></translation>
+        <source>Antoine J&#xe9;r&#xf4;me Balard</source>
+        <translation>Antoine Jérôme Balard</translation>
     </message>
     <message>
         <source>Crystalline, reflective with bluish-tinged faces</source>
-        <translation>晶莹剔透，表面略泛蓝色</translation>
+        <translation>Кристаллы с зеркальными гранями имеющими синеватый отлив</translation>
     </message>
     <message>
         <source>Axel Fredrik Cronstedt</source>
-        <translation type="unfinished"></translation>
+        <translation>Axel Fredrik Cronstedt</translation>
     </message>
     <message>
         <source>Carl Gustaf Mosander</source>
-        <translation type="unfinished"></translation>
+        <translation>Carl Gustaf Mosander</translation>
     </message>
     <message>
         <source>Erbium</source>
-        <translation>铈</translation>
+        <translation>Эрбий</translation>
     </message>
     <message>
         <source>Phosphorus</source>
-        <translation>磷</translation>
+        <translation>Фосфор</translation>
     </message>
     <message>
         <source>Silvery bluish-gray metallic</source>
-        <translation>银色，略带蓝灰色的金属</translation>
+        <translation>Серебристый голубовато-серый, с металлическим блеском</translation>
     </message>
     <message>
         <source>Grayish white, lustrous</source>
-        <translation>灰白有光泽的</translation>
+        <translation>Блестящий, серовато-белый</translation>
     </message>
     <message>
         <source>Lithium</source>
-        <translation>锂</translation>
+        <translation>Литий</translation>
     </message>
     <message>
         <source>Holmium</source>
-        <translation>钬</translation>
+        <translation>Гольмий</translation>
     </message>
     <message>
         <source>Post-transition metal</source>
-        <translation>过渡金属</translation>
+        <translation>Постпереходный металл</translation>
     </message>
     <message>
-        <source>Jöns Jakob Berzelius</source>
-        <translation type="unfinished"></translation>
+        <source>J&#xf6;ns Jakob Berzelius</source>
+        <translation>Jöns Jakob Berzelius</translation>
     </message>
     <message>
         <source>Palladium</source>
-        <translation>钯</translation>
+        <translation>Палладий</translation>
     </message>
     <message>
         <source>Iodine</source>
-        <translation>碘</translation>
+        <translation>Йод</translation>
     </message>
     <message>
         <source>Dirk Coster</source>
-        <translation type="unfinished"></translation>
+        <translation>Dirk Coster</translation>
     </message>
     <message>
-        <source>Eugène-Anatole Demarçay</source>
-        <translation type="unfinished"></translation>
+        <source>Eug&#xe8;ne-Anatole Demar&#xe7;ay</source>
+        <translation>Eugène-Anatole Demarçay</translation>
     </message>
     <message>
         <source>Tellurium</source>
-        <translation>碲</translation>
+        <translation>Теллур</translation>
     </message>
     <message>
         <source>Lars Fredrik Nilson</source>
-        <translation type="unfinished"></translation>
+        <translation>Lars Fredrik Nilson</translation>
     </message>
     <message>
         <source>Hafnium</source>
-        <translation>铪</translation>
+        <translation>Гафний</translation>
     </message>
     <message>
         <source>Rubidium</source>
-        <translation>铷</translation>
+        <translation>Рубидий</translation>
     </message>
     <message>
         <source>Meitnerium</source>
-        <translation>䥑</translation>
+        <translation>Мейтнерий</translation>
     </message>
     <message>
         <source>Sodium</source>
-        <translation>钠</translation>
+        <translation>Натрий</translation>
     </message>
     <message>
         <source>Antonio de Ulloa</source>
-        <translation type="unfinished"></translation>
+        <translation>Antonio de Ulloa</translation>
     </message>
     <message>
         <source>Colorless gas exhibiting an orange-red glow when placed in a high voltage electric field</source>
-        <translation>无色气体，置于高压电场中呈桔红色微光</translation>
+        <translation>Бесцветный газ. В электрическом поле высокой интенсивности светится оранжево-красным.</translation>
     </message>
     <message>
         <source>Unknown, predicted to be noble gas</source>
-        <translation>未知，预计为惰性气体</translation>
+        <translation>Неизвестно, по прогнозу будет инертным газом</translation>
     </message>
     <message>
         <source>Selenium</source>
-        <translation>硒</translation>
+        <translation>Селен</translation>
     </message>
     <message>
         <source>Magnesium</source>
-        <translation>镁</translation>
+        <translation>Магний</translation>
     </message>
     <message>
         <source>Livermorium</source>
-        <translation>鉝</translation>
+        <translation>Ливерморий</translation>
     </message>
     <message>
         <source>Otto Hahn</source>
-        <translation type="unfinished"></translation>
+        <translation>Otto Hahn</translation>
     </message>
     <message>
         <source>Silvery gray metallic</source>
-        <translation>银灰色金属</translation>
+        <translation>Серебристо-серый, металлический блеск</translation>
     </message>
     <message>
         <source>Iron</source>
-        <translation>铁</translation>
+        <translation>Железо</translation>
     </message>
     <message>
         <source>Tennessine</source>
-        <translation>Tennessine</translation>
+        <translation>Теннессин</translation>
     </message>
     <message>
         <source>Metallic yellow</source>
-        <translation>黄色金属</translation>
+        <translation>Металлический желтый</translation>
     </message>
     <message>
         <source>Cadmium</source>
-        <translation>镉</translation>
+        <translation>Кадмий</translation>
     </message>
     <message>
         <source>Ytterbium</source>
-        <translation>镱</translation>
+        <translation>Иттербий</translation>
     </message>
     <message>
         <source>Oxygen</source>
-        <translation>氧</translation>
+        <translation>Кислород</translation>
     </message>
     <message>
         <source>Red-orange metallic luster</source>
-        <translation>橙色红金属光泽</translation>
+        <translation>Красно-оранжевый металлический блеск
+</translation>
     </message>
     <message>
         <source>Colorless gas, exhibiting a blue glow when placed in a high voltage electric field</source>
-        <translation>无色气体，置于高压电器中发出蓝色微光</translation>
+        <translation>Бесцветный газ. В электрическом поле высокой интенсивности светится синим.</translation>
     </message>
     <message>
         <source>Boron</source>
-        <translation>硼</translation>
+        <translation>Бор</translation>
     </message>
     <message>
         <source>Argon</source>
-        <translation>氩</translation>
+        <translation>Аргон</translation>
     </message>
     <message>
         <source>Silver-white</source>
-        <translation>银白色</translation>
+        <translation>Серебристо-белый</translation>
     </message>
     <message>
         <source>Lawrence Berkeley National Laboratory</source>
-        <translation type="unfinished"></translation>
+        <translation>Lawrence Berkeley National Laboratory</translation>
     </message>
     <message>
         <source>Einsteinium</source>
-        <translation>锿</translation>
+        <translation>Эйнштейний</translation>
     </message>
     <message>
         <source>Ferdinand Reich</source>
-        <translation type="unfinished"></translation>
+        <translation>Ferdinand Reich</translation>
     </message>
     <message>
         <source>Molybdenum</source>
-        <translation>钼</translation>
+        <translation>Молибден</translation>
     </message>
     <message>
         <source>Aluminium</source>
-        <translation>铝</translation>
+        <translation>Алюминий</translation>
     </message>
     <message>
         <source>Colourless, waxy white, yellow, scarlet, red, violet, black</source>
-        <translation>无色，蜡白色，黄色，猩红色，红色，紫罗兰色，黑色</translation>
+        <translation>Бесцветный, восковидный белый, желтый, алый, красный, фиолетовый, черный</translation>
     </message>
     <message>
-        <source>Claude François Geoffroy</source>
-        <translation type="unfinished"></translation>
+        <source>Claude Fran&#xe7;ois Geoffroy</source>
+        <translation>Claude François Geoffroy</translation>
     </message>
     <message>
         <source>Bernard Courtois</source>
-        <translation type="unfinished"></translation>
+        <translation>Bernard Courtois</translation>
     </message>
     <message>
         <source>Silver</source>
-        <translation>银</translation>
+        <translation>Серебро</translation>
     </message>
     <message>
         <source>Indium</source>
-        <translation>铟</translation>
+        <translation>Индий</translation>
     </message>
     <message>
         <source>Silvery, blue cast</source>
-        <translation>银色带有蓝色阴影</translation>
+        <translation>Серебристый, синий отлив</translation>
     </message>
     <message>
         <source>Noble gas</source>
-        <translation>惰性气体</translation>
+        <translation>Инертный газ</translation>
     </message>
     <message>
         <source>Thulium</source>
-        <translation>铥</translation>
+        <translation>Туллий</translation>
     </message>
     <message>
         <source>Copper</source>
-        <translation>铜</translation>
+        <translation>Медь</translation>
     </message>
     <message>
         <source>Hassium</source>
-        <translation>𨭆</translation>
+        <translation>Хассий</translation>
     </message>
     <message>
         <source>Titanium</source>
-        <translation>钛</translation>
+        <translation>Титан</translation>
     </message>
     <message>
         <source>Robert Bunsen</source>
-        <translation type="unfinished"></translation>
+        <translation>Robert Bunsen</translation>
     </message>
     <message>
         <source>Joint Institute for Nuclear Research</source>
-        <translation>俄罗斯联合核研究所</translation>
+        <translation>Объединённый институт ядерных исследований</translation>
     </message>
     <message>
         <source>Black, red, and gray (not pictured) allotropes</source>
-        <translation>黑色、红色和灰色(未见图)同素异形体</translation>
+        <translation>Черные, красные и серые (не показано) аллотропы</translation>
     </message>
     <message>
         <source>Silvery grey-white metallic</source>
-        <translation>银色灰白金属</translation>
+        <translation>Серебристый серо-белый металлический</translation>
     </message>
     <message>
         <source>Bronze Age</source>
-        <translation>青铜时代</translation>
+        <translation>Бронзовый век</translation>
     </message>
     <message>
         <source>Silvery-grayish</source>
-        <translation>银灰色</translation>
+        <translation>Серебристо-сероватый</translation>
     </message>
     <message>
         <source>Technetium</source>
-        <translation>锝</translation>
+        <translation>Технеций</translation>
     </message>
     <message>
         <source>Cesium</source>
-        <translation>铯</translation>
+        <translation>Цезий</translation>
     </message>
     <message>
         <source>Francium</source>
-        <translation>钫</translation>
+        <translation>Франций</translation>
     </message>
     <message>
         <source>Nobelium</source>
-        <translation>锘</translation>
+        <translation>Нобелий</translation>
     </message>
     <message>
         <source>Nitrogen</source>
-        <translation>氮</translation>
+        <translation>Азот</translation>
     </message>
     <message>
         <source>Tungsten</source>
-        <translation>钨</translation>
+        <translation>Вольфрам</translation>
     </message>
     <message>
         <source>Gray blue</source>
-        <translation>灰蓝色</translation>
+        <translation>Голубовато-серый</translation>
     </message>
     <message>
         <source>Unknown, probably metalloid</source>
-        <translation>未知,可能为准金属</translation>
+        <translation>Неизвестно, предположительно металлоид</translation>
     </message>
     <message>
         <source>Krypton</source>
-        <translation>氪</translation>
+        <translation>Криптон</translation>
     </message>
     <message>
         <source>Curium</source>
-        <translation>锔</translation>
+        <translation>Кюрий</translation>
     </message>
     <message>
         <source>Americium</source>
-        <translation>镅</translation>
+        <translation>Америций</translation>
     </message>
     <message>
         <source>Colorless gas, exhibiting a whitish glow in a high electric field</source>
-        <translation>无色气体，在高电场中呈白光</translation>
+        <translation>Бесцветный газ. В электрическом поле высокой интенсивности светится белым.</translation>
     </message>
     <message>
         <source>Berkelium</source>
-        <translation>锫</translation>
+        <translation>Берклий</translation>
     </message>
     <message>
         <source>Barium</source>
-        <translation>钡</translation>
+        <translation>Барий</translation>
     </message>
     <message>
         <source>Antoine Lavoisier</source>
-        <translation type="unfinished"></translation>
+        <translation>Antoine Lavoisier</translation>
     </message>
     <message>
         <source>Dubnium</source>
-        <translation>钍</translation>
+        <translation>Дубний</translation>
     </message>
     <message>
         <source>Strontium</source>
-        <translation>锶</translation>
+        <translation>Стронций</translation>
     </message>
     <message>
         <source>Rhodium</source>
-        <translation>铑</translation>
+        <translation>Родий</translation>
     </message>
     <message>
         <source>Sulfur</source>
-        <translation>硫</translation>
+        <translation>Сера</translation>
     </message>
     <message>
         <source>Metallic grey</source>
-        <translation>金属灰</translation>
+        <translation>Металлически-серый</translation>
     </message>
     <message>
         <source>Californium</source>
-        <translation>锎</translation>
+        <translation>Калифорний</translation>
     </message>
     <message>
         <source>Humphry Davy</source>
-        <translation type="unfinished"></translation>
+        <translation>Humphry Davy</translation>
     </message>
     <message>
         <source>Polyatomic nonmetal</source>
-        <translation>多元非金属</translation>
+        <translation>Многоатомный неметалл</translation>
     </message>
     <message>
         <source>Friedrich Oskar Giesel</source>
-        <translation type="unfinished"></translation>
+        <translation>Friedrich Oskar Giesel</translation>
     </message>
     <message>
         <source>Hydrogen</source>
-        <translation>氢</translation>
+        <translation>Водород</translation>
     </message>
     <message>
         <source>Platinum</source>
-        <translation>铂</translation>
+        <translation>Платина</translation>
     </message>
     <message>
         <source>Louis Nicolas Vauquelin</source>
-        <translation type="unfinished"></translation>
+        <translation>Louis Nicolas Vauquelin</translation>
     </message>
     <message>
         <source>Black-brown</source>
-        <translation>蓝棕色</translation>
+        <translation>Черно-коричневый</translation>
     </message>
     <message>
         <source>Arsenic</source>
-        <translation>砷</translation>
+        <translation>Мышьяк</translation>
     </message>
     <message>
         <source>Flerovium</source>
-        <translation>鈇</translation>
+        <translation>Флеровий</translation>
     </message>
     <message>
         <source>Alkaline earth metal</source>
-        <translation>碱土金属</translation>
+        <translation>Щёлочноземельный металл</translation>
     </message>
     <message>
         <source>Lemon yellow sintered microcrystals</source>
-        <translation>柠檬黄烧结微晶</translation>
+        <translation>Лимонно-жёлтые спёкшиеся микрокристаллы</translation>
     </message>
     <message>
         <source>Clemens Winkler</source>
-        <translation type="unfinished"></translation>
+        <translation>Clemens Winkler</translation>
     </message>
     <message>
         <source>Blue-silver-grey metal</source>
-        <translation>蓝银灰色金属</translation>
+        <translation>Сине-серебристо-серый металл</translation>
     </message>
     <message>
         <source>Silvery white</source>
-        <translation>银白色</translation>
+        <translation>Серебристо-белый</translation>
     </message>
     <message>
         <source>Carbon</source>
-        <translation>碳</translation>
+        <translation>Углерод</translation>
     </message>
     <message>
         <source>Morris Travers</source>
-        <translation type="unfinished"></translation>
+        <translation>Morris Travers</translation>
     </message>
     <message>
-        <source>Emilio Segrè</source>
-        <translation type="unfinished"></translation>
+        <source>Emilio Segr&#xe8;</source>
+        <translation>Emilio Segrè</translation>
     </message>
     <message>
         <source>Bohrium</source>
-        <translation>铍</translation>
+        <translation>Борий</translation>
     </message>
     <message>
         <source>Bismuth</source>
-        <translation>铋</translation>
+        <translation>Висмут</translation>
     </message>
     <message>
         <source>Manganese</source>
-        <translation>锰</translation>
+        <translation>Марганец</translation>
     </message>
     <message>
         <source>Georg Brandt</source>
-        <translation type="unfinished"></translation>
+        <translation>Georg Brandt</translation>
     </message>
     <message>
         <source>Zirconium</source>
-        <translation>锆</translation>
+        <translation>Цирконий</translation>
     </message>
     <message>
         <source>Edwin McMillan</source>
-        <translation type="unfinished"></translation>
+        <translation>Edwin McMillan</translation>
     </message>
     <message>
         <source>Potassium</source>
-        <translation>钾</translation>
+        <translation>Калий</translation>
     </message>
     <message>
         <source>William Hyde Wollaston</source>
-        <translation type="unfinished"></translation>
+        <translation>William Hyde Wollaston</translation>
     </message>
     <message>
         <source>Marc Delafontaine</source>
-        <translation type="unfinished"></translation>
+        <translation>Marc Delafontaine</translation>
     </message>
     <message>
         <source>Silvery metallic, glows purple in the dark</source>
-        <translation>银色金属，在黑暗中发出紫色微光</translation>
+        <translation>Серебристо-металлический цвет, светится пурпурным в темноте </translation>
     </message>
     <message>
         <source>Lanthanum</source>
-        <translation>镧</translation>
+        <translation>Лантан</translation>
     </message>
     <message>
         <source>Promethium</source>
-        <translation>钷</translation>
+        <translation>Прометий</translation>
     </message>
     <message>
         <source>Nihonium</source>
-        <translation>Nihonium</translation>
+        <translation>Нихоний</translation>
     </message>
     <message>
-        <source>Andrés Manuel del Río</source>
-        <translation type="unfinished"></translation>
+        <source>Andr&#xe9;s Manuel del R&#xed;o</source>
+        <translation>Andrés Manuel del Río</translation>
     </message>
     <message>
         <source>Grey white</source>
-        <translation>灰白色</translation>
+        <translation>Серо-белый</translation>
     </message>
     <message>
         <source>Joseph Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Joseph Black</translation>
     </message>
     <message>
         <source>Rhenium</source>
-        <translation>铼</translation>
+        <translation>Рений</translation>
     </message>
     <message>
         <source>Gray metallic, bluish when oxidized</source>
-        <translation>灰色金属，氧化时略带蓝色</translation>
+        <translation>Серо-металлический, синеватый при окислении</translation>
     </message>
     <message>
         <source>Lord Rayleigh</source>
-        <translation type="unfinished"></translation>
+        <translation>Lord Rayleigh</translation>
     </message>
     <message>
         <source>Nickel</source>
-        <translation>镍</translation>
+        <translation>Никель</translation>
     </message>
     <message>
         <source>Astatine</source>
-        <translation>砹</translation>
+        <translation>Астат</translation>
     </message>
     <message>
         <source>Radium</source>
-        <translation>镭</translation>
+        <translation>Радий</translation>
     </message>
     <message>
         <source>Silver-colored</source>
-        <translation>银色</translation>
+        <translation>Серебристый</translation>
     </message>
     <message>
         <source>Torbern Olof Bergman</source>
-        <translation type="unfinished"></translation>
+        <translation>Torbern Olof Bergman</translation>
     </message>
     <message>
         <source>Jean Charles Galissard de Marignac</source>
-        <translation type="unfinished"></translation>
+        <translation>Jean Charles Galissard de Marignac</translation>
     </message>
     <message>
         <source>Pierre Janssen</source>
-        <translation type="unfinished"></translation>
+        <translation>Pierre Janssen</translation>
     </message>
     <message>
         <source>Unknown, probably metallic</source>
-        <translation>未知,可能为金属</translation>
+        <translation>Неизвестно, предположительно металлический</translation>
     </message>
     <message>
         <source>Osmium</source>
-        <translation>锇</translation>
+        <translation>Осмий</translation>
     </message>
     <message>
         <source>Terbium</source>
-        <translation>铽</translation>
+        <translation>Тербий</translation>
     </message>
     <message>
         <source>Seaborgium</source>
-        <translation>𬭳</translation>
+        <translation>Сиборгий</translation>
     </message>
     <message>
         <source>Silvery white, tarnishing to dark gray in air</source>
-        <translation>银白色，在空气中变成深灰色</translation>
+        <translation>Серебисто-белый. На воздухе покрывается тёмно-серым налётом.</translation>
     </message>
     <message>
         <source>Shiny grey solid</source>
-        <translation>有光泽的灰色固体</translation>
+        <translation>Блестящий твёрдый серый</translation>
     </message>
     <message>
         <source>Praseodymium</source>
-        <translation>镨</translation>
+        <translation>Празеодим</translation>
     </message>
     <message>
         <source>RIKEN</source>
-        <translation type="unfinished"></translation>
+        <translation>RIKEN</translation>
     </message>
     <message>
-        <source>André-Marie Ampère</source>
-        <translation type="unfinished"></translation>
+        <source>Andr&#xe9;-Marie Amp&#xe8;re</source>
+        <translation>André-Marie Ampère</translation>
     </message>
     <message>
         <source>Pierre Curie</source>
-        <translation type="unfinished"></translation>
+        <translation>Pierre Curie</translation>
     </message>
     <message>
         <source>Metallic</source>
-        <translation>金属</translation>
+        <translation>Металлический</translation>
     </message>
     <message>
-        <source>Gesellschaft für Schwerionenforschung</source>
-        <translation type="unfinished"></translation>
+        <source>Gesellschaft f&#xfc;r Schwerionenforschung</source>
+        <translation>Gesellschaft für Schwerionenforschung</translation>
     </message>
     <message>
         <source>India</source>
-        <translation>印度</translation>
+        <translation>Индия</translation>
     </message>
     <message>
         <source>Gray metallic</source>
-        <translation>灰色金属</translation>
+        <translation>Серый металлический</translation>
     </message>
     <message>
         <source>Karl Samuel Leberecht Hermann</source>
-        <translation type="unfinished"></translation>
+        <translation>Karl Samuel Leberecht Hermann</translation>
     </message>
     <message>
         <source>Gallium</source>
-        <translation>镓</translation>
+        <translation>Галлий</translation>
     </message>
     <message>
         <source>Silvery-white</source>
-        <translation>银白色</translation>
+        <translation>Серебристо-белый</translation>
     </message>
     <message>
         <source>Radon</source>
-        <translation>氡</translation>
+        <translation>Радон</translation>
     </message>
     <message>
         <source>Colorless gas</source>
-        <translation>无色气体</translation>
+        <translation>Бесцветный газ</translation>
     </message>
     <message>
         <source>Beryllium</source>
-        <translation>铍</translation>
+        <translation>Бериллий</translation>
     </message>
     <message>
         <source>Actinide</source>
-        <translation>锕系元素</translation>
+        <translation>Актинид</translation>
     </message>
     <message>
         <source>Bright, silvery metallic luster</source>
-        <translation>亮银色金属光泽</translation>
+        <translation>Светлый, с серебристым металлическим блеском</translation>
     </message>
     <message>
         <source>Isotopes of promethium</source>
-        <translation>钷的同位素</translation>
+        <translation>Изотопы прометия</translation>
     </message>
     <message>
         <source>Uranium</source>
-        <translation>铀</translation>
+        <translation>Уран</translation>
     </message>
     <message>
         <source>Germanium</source>
-        <translation>锗</translation>
+        <translation>Германий</translation>
     </message>
     <message>
         <source>Oganesson</source>
-        <translation>Oganesson</translation>
+        <translation>Оганесон</translation>
     </message>
     <message>
         <source>Helium</source>
-        <translation>氦</translation>
+        <translation>Гелий</translation>
     </message>
     <message>
         <source>Neon</source>
-        <translation>氖</translation>
+        <translation>Неон</translation>
     </message>
     <message>
         <source>Transition metal</source>
-        <translation>过渡元素</translation>
+        <translation>Переходный металл</translation>
     </message>
     <message>
         <source>5000 BC</source>
-        <translation>公元前5000年</translation>
+        <translation>5000 до н.э.</translation>
     </message>
     <message>
         <source>Solid</source>
-        <translation>固体</translation>
+        <translation>Твёрдое</translation>
     </message>
     <message>
         <source>William Ramsay</source>
-        <translation type="unfinished"></translation>
+        <translation>William Ramsay</translation>
     </message>
     <message>
         <source>Silvery gold</source>
-        <translation>金银色</translation>
+        <translation>Серебристо-золотой</translation>
     </message>
     <message>
         <source>William Gregor</source>
-        <translation type="unfinished"></translation>
+        <translation>William Gregor</translation>
     </message>
     <message>
         <source>William Crookes</source>
-        <translation type="unfinished"></translation>
+        <translation>William Crookes</translation>
     </message>
     <message>
         <source>Silicon</source>
-        <translation>硅</translation>
+        <translation>Кремний</translation>
     </message>
     <message>
         <source>Scandium</source>
-        <translation>钪</translation>
+        <translation>Скандий</translation>
     </message>
     <message>
         <source>Masataka Ogawa</source>
-        <translation type="unfinished"></translation>
+        <translation>Masataka Ogawa</translation>
     </message>
     <message>
         <source>Thallium</source>
-        <translation>铊</translation>
+        <translation>Таллий</translation>
     </message>
     <message>
         <source>Actinium</source>
-        <translation>锕</translation>
+        <translation>Актиний</translation>
     </message>
     <message>
         <source>Fluorine</source>
-        <translation>氟</translation>
+        <translation>Фтор</translation>
     </message>
     <message>
         <source>Colorless gas exhibiting a lilac/violet glow when placed in a high voltage electric field</source>
-        <translation>无色气体，置于高压电场中会呈现淡紫色或紫罗兰色的微光</translation>
+        <translation>Бесцветный газ. В электрическом поле высокой интенсивности светится лиловым/фиолетовым.</translation>
     </message>
     <message>
         <source>Isotopes of cadmium</source>
-        <translation>镉的同位素</translation>
+        <translation>Изотопы кадмия</translation>
     </message>
     <message>
         <source>Unknown, probably transition metal</source>
-        <translation>未知，可能为过渡金属</translation>
+        <translation>Неизвестно, предположительно переходный металл.</translation>
     </message>
     <message>
         <source>Tin</source>
-        <translation>锡</translation>
+        <translation>Олово</translation>
     </message>
     <message>
         <source>Carl Wilhelm Scheele</source>
-        <translation type="unfinished"></translation>
+        <translation>Carl Wilhelm Scheele</translation>
     </message>
     <message>
         <source>Xenon</source>
-        <translation>氙</translation>
+        <translation>Ксенон</translation>
     </message>
     <message>
         <source>Silvery metallic</source>
-        <translation>银色金属</translation>
+        <translation>Серебристый металлический</translation>
     </message>
     <message>
         <source>Europium</source>
-        <translation>铕</translation>
+        <translation>Европий</translation>
     </message>
     <message>
         <source>Unknown, before 5000 BC</source>
-        <translation>公元前5000年之前未知</translation>
+        <translation>Неизвестно, ранее 5000 до н.э.</translation>
     </message>
     <message>
         <source>Dale R. Corson</source>
-        <translation type="unfinished"></translation>
+        <translation>Dale R. Corson</translation>
     </message>
     <message>
         <source>Glenn T. Seaborg</source>
-        <translation type="unfinished"></translation>
+        <translation>Glenn T. Seaborg</translation>
     </message>
     <message>
         <source>Joseph Louis Gay-Lussac</source>
-        <translation type="unfinished"></translation>
+        <translation>Joseph Louis Gay-Lussac</translation>
     </message>
     <message>
         <source>Shiny gray metal</source>
-        <translation>亮灰色金属</translation>
+        <translation>Блестящий серый металл</translation>
     </message>
     <message>
         <source>Jean-Antoine Chaptal</source>
-        <translation type="unfinished"></translation>
+        <translation>Jean-Antoine Chaptal</translation>
     </message>
     <message>
         <source>Unknown, before 2000 BCE</source>
-        <translation>公元前2000年之前未知</translation>
+        <translation>Неизвестно, ранее 2000 до н.э.</translation>
     </message>
     <message>
         <source>Plutonium</source>
-        <translation>钚</translation>
+        <translation>Плутоний</translation>
     </message>
     <message>
         <source>Unknown, before 3500 BC</source>
-        <translation>公元前3500年之前未知</translation>
+        <translation>Неизвестно, ранее 3500 до н.э.</translation>
     </message>
     <message>
         <source>Metalloid</source>
-        <translation>类金属/准金属</translation>
+        <translation>Металлоид</translation>
     </message>
     <message>
         <source>Silvery gray</source>
-        <translation>银灰色</translation>
+        <translation>Серебристо-серый</translation>
     </message>
     <message>
         <source>Carl Auer von Welsbach</source>
-        <translation type="unfinished"></translation>
+        <translation>Carl Auer von Welsbach</translation>
     </message>
     <message>
         <source>Chlorine</source>
-        <translation>氯</translation>
+        <translation>Хлор</translation>
     </message>
     <message>
         <source>Martin Heinrich Klaproth</source>
-        <translation type="unfinished"></translation>
+        <translation>Martin Heinrich Klaproth</translation>
     </message>
     <message>
         <source>Yttrium</source>
-        <translation>钇</translation>
+        <translation>Иттрий</translation>
     </message>
     <message>
         <source>Cerium</source>
-        <translation>铈</translation>
+        <translation>Церий</translation>
     </message>
     <message>
         <source>Gold</source>
-        <translation>金</translation>
+        <translation>Золото</translation>
     </message>
     <message>
         <source>Protactinium</source>
-        <translation>镤</translation>
+        <translation>Протактиний</translation>
     </message>
     <message>
         <source>Mendelevium</source>
-        <translation>钔</translation>
+        <translation>Менделевий</translation>
     </message>
     <message>
         <source>Rutherfordium</source>
-        <translation>Rutherfordium</translation>
+        <translation>Резерфордий</translation>
     </message>
     <message>
         <source>Metallic gray</source>
-        <translation>金属灰</translation>
+        <translation>Металлически-серый</translation>
     </message>
     <message>
         <source>Diatomic nonmetal</source>
-        <translation>双原子非金属</translation>
+        <translation>Двухатомный неметалл</translation>
     </message>
     <message>
         <source>Isotopes of vanadium</source>
-        <translation>钒的同位素</translation>
+        <translation>Изотопы ванадия</translation>
     </message>
     <message>
         <source>Fermium</source>
-        <translation>镄</translation>
+        <translation>Фермий</translation>
     </message>
     <message>
         <source>Darmstadtium</source>
-        <translation>鐽</translation>
+        <translation>Дармштадтий</translation>
     </message>
     <message>
         <source>Lanthanide</source>
-        <translation>镧系元素</translation>
+        <translation>Лантанид</translation>
     </message>
     <message>
         <source>Colorless gas, exhibiting a red-orange glow when placed in a high-voltage electric field</source>
-        <translation>无色气体，置于高压电场中呈桔红色微光</translation>
+        <translation>Бесцветный газ. В электрическом поле высокой интенсивности светится красно-оранжевым.</translation>
     </message>
     <message>
         <source>Lustrous silver</source>
-        <translation>银色有光泽的</translation>
+        <translation>Блестящий серебряный</translation>
     </message>
     <message>
         <source>Vanadium</source>
-        <translation>钒</translation>
+        <translation>Ванадий</translation>
     </message>
     <message>
         <source>Lustrous metallic with a grayish tinge</source>
-        <translation>有光泽的带灰色色调的金属</translation>
+        <translation>Блестящий металлический с сероватым оттенком</translation>
     </message>
     <message>
         <source>Chien Shiung Wu</source>
-        <translation>吴健雄</translation>
+        <translation>Chien Shiung Wu</translation>
     </message>
     <message>
         <source>Hard lustrous gray metal</source>
-        <translation>有光泽的灰色硬金属</translation>
+        <translation>Твёрдый блестящий серый металл</translation>
     </message>
     <message>
-        <source>Franz-Joseph Müller von Reichenstein</source>
-        <translation type="unfinished"></translation>
+        <source>Franz-Joseph M&#xfc;ller von Reichenstein</source>
+        <translation>Franz-Joseph Müller von Reichenstein</translation>
     </message>
     <message>
         <source>White-gray metallic</source>
-        <translation>灰白色金属</translation>
+        <translation>Бело-серый металлический</translation>
     </message>
     <message>
         <source>Lustrous, metallic, and silver with a gold tinge</source>
-        <translation>Kiiltävä metallinen ja hopeinen kullan vivahteilla</translation>
+        <translation>Блестящий металлический и серебряный с золотистым оттенком</translation>
     </message>
     <message>
         <source>Lustrous metallic gray, violet as a gas</source>
-        <translation>有光泽的金属灰色，气态为紫罗兰色</translation>
+        <translation>Блестящий металлически-серый, в газообразном состоянии фиолетовый</translation>
     </message>
     <message>
         <source>Gas</source>
-        <translation>气态</translation>
+        <translation>Газ</translation>
     </message>
     <message>
         <source>Calcium</source>
-        <translation>钙</translation>
+        <translation>Кальций</translation>
     </message>
     <message>
         <source>Daniel Rutherford</source>
-        <translation type="unfinished"></translation>
+        <translation>Daniel Rutherford</translation>
     </message>
     <message>
         <source>Cobalt</source>
-        <translation>钴</translation>
+        <translation>Кобальт</translation>
     </message>
     <message>
         <source>Lead</source>
-        <translation>铅</translation>
+        <translation>Свинец</translation>
     </message>
     <message>
         <source>Lecoq de Boisbaudran</source>
-        <translation type="unfinished"></translation>
+        <translation>Lecoq de Boisbaudran</translation>
     </message>
     <message>
         <source>Moscovium</source>
-        <translation>镆</translation>
+        <translation>Московий</translation>
     </message>
     <message>
         <source>Roentgenium</source>
-        <translation>錀</translation>
+        <translation>Рентгений</translation>
     </message>
     <message>
         <source>Silvery-white (beta, β) or gray (alpha, α)</source>
-        <translation>银白色(beta,β)或灰色(alpha,α)</translation>
+        <translation>Серебристо-белый (бета, β) или серый (альфа α)</translation>
     </message>
     <message>
         <source>Steel gray</source>
-        <translation>蓝灰色</translation>
+        <translation>Серо-стальной</translation>
     </message>
     <message>
         <source>Pale yellow-green gas</source>
-        <translation>淡淡的黄绿色气体</translation>
+        <translation>Бледно жёлто-зелёный газ</translation>
     </message>
     <message>
         <source>Lawrencium</source>
-        <translation>铹</translation>
+        <translation>Лоуренсий</translation>
     </message>
     <message>
         <source>Gadolinium</source>
-        <translation>钆</translation>
+        <translation>Гадолиний</translation>
     </message>
     <message>
         <source>Antimony</source>
-        <translation>锑</translation>
+        <translation>Сурьма</translation>
     </message>
     <message>
         <source>Grayish white</source>
-        <translation>灰白色</translation>
+        <translation>Серовато-белый</translation>
     </message>
     <message>
         <source>Lustrous white metal</source>
-        <translation>有光泽的白色金属</translation>
+        <translation>Блестящий белый металл</translation>
     </message>
     <message>
         <source>Liquid</source>
-        <translation>液态</translation>
+        <translation>Жидкость</translation>
     </message>
     <message>
         <source>Ancient Egypt</source>
-        <translation>古埃及</translation>
+        <translation>Древний Египет</translation>
     </message>
     <message>
         <source>Silvery white metallic</source>
-        <translation>银白色金属</translation>
+        <translation>Серебристо-белый металлический</translation>
     </message>
     <message>
         <source>Mercury</source>
-        <translation>汞</translation>
+        <translation>Ртуть</translation>
     </message>
     <message>
         <source>Ancient china</source>
-        <translation>中国古代</translation>
+        <translation>Древний Китай</translation>
     </message>
     <message>
         <source>Colorless gas, occasionally glows green or red in discharge tubes</source>
-        <translation>无色气体，偶尔在放电管中发出绿色或红色的光</translation>
+        <translation>Бесцветный газ. Периодически светится зеленым или красным в разрядной трубке.</translation>
     </message>
     <message>
         <source>Silver-gray</source>
-        <translation>银灰色</translation>
+        <translation>Серебристо-серый</translation>
     </message>
     <message>
         <source>Thomas Thomson (chemist)</source>
-        <translation>Thomas Thomson (化学家)</translation>
+        <translation>Thomas Thomson (химик)</translation>
     </message>
     <message>
         <source>Friedrich Ernst Dorn</source>
-        <translation type="unfinished"></translation>
+        <translation>Friedrich Ernst Dorn</translation>
     </message>
     <message>
         <source>Hennig Brand</source>
-        <translation type="unfinished"></translation>
+        <translation>Hennig Brand</translation>
     </message>
     <message>
         <source>Polonium</source>
-        <translation>钋</translation>
+        <translation>Полоний</translation>
     </message>
     <message>
         <source>Johan August Arfwedson</source>
-        <translation type="unfinished"></translation>
+        <translation>Johan August Arfwedson</translation>
     </message>
     <message>
         <source>Middle East</source>
-        <translation>中东地区</translation>
+        <translation>Ближний восток</translation>
     </message>
     <message>
         <source>Alkali metal</source>
-        <translation>碱金属</translation>
+        <translation>Щелочной металл</translation>
     </message>
     <message>
         <source>Anders Gustaf Ekeberg</source>
-        <translation type="unfinished"></translation>
+        <translation>Anders Gustaf Ekeberg</translation>
     </message>
     <message>
         <source>Colorless gas, liquid or solid</source>
-        <translation>无色气体，液体或固体</translation>
+        <translation>Бесцветный газ, жидкость или твёрдое состояние</translation>
     </message>
     <message>
         <source>Walter Noddack</source>
-        <translation type="unfinished"></translation>
+        <translation>Walter Noddack</translation>
     </message>
     <message>
         <source>Dysprosium</source>
-        <translation>镝</translation>
+        <translation>Диспрозий</translation>
     </message>
     <message>
         <source>Johan Gadolin</source>
-        <translation type="unfinished"></translation>
+        <translation>Johan Gadolin</translation>
     </message>
     <message>
         <source>Chromium</source>
-        <translation>铬</translation>
+        <translation>Хром</translation>
     </message>
     <message>
         <source>Zinc</source>
-        <translation>锌</translation>
+        <translation>Цинк</translation>
     </message>
     <message>
         <source>Ruthenium</source>
-        <translation>钌</translation>
+        <translation>Рутений</translation>
     </message>
     <message>
         <source>William Cruickshank (chemist)</source>
-        <translation>William Cruickshank （化学家）</translation>
+        <translation>William Cruickshank (химик)</translation>
     </message>
     <message>
         <source>Charles Hatchett</source>
-        <translation type="unfinished"></translation>
+        <translation>Charles Hatchett</translation>
     </message>
     <message>
         <source>Thorium</source>
-        <translation>钍</translation>
+        <translation>Торий</translation>
     </message>
     <message>
         <source>Silvery</source>
-        <translation>银色</translation>
+        <translation>Серебристый</translation>
     </message>
     <message>
         <source>Lutetium</source>
-        <translation>镏</translation>
+        <translation>Лютеций</translation>
     </message>
     <message>
         <source>Unknown, probably post-transition metal</source>
-        <translation>未知，可能为过渡元素</translation>
+        <translation>Неизвестно, предположительно постпереходный металл</translation>
     </message>
     <message>
         <source>Copernicium</source>
-        <translation>鎶</translation>
+        <translation>Коперниций</translation>
     </message>
     <message>
         <source>undefined</source>
-        <translation>不确定</translation>
+        <translation>пусто</translation>
     </message>
 </context>
 <context>
@@ -1271,31 +1272,31 @@
     <name>Table</name>
     <message>
         <source>Groups</source>
-        <translation>族</translation>
+        <translation>Группы</translation>
     </message>
     <message>
         <source>CPK-color</source>
-        <translation>CPK-颜色</translation>
+        <translation>Цвета CPK</translation>
     </message>
     <message>
         <source>Electronegativity</source>
-        <translation>电负性</translation>
-    </message>
-    <message>
-        <source>Block</source>
-        <translation>嵌段</translation>
-    </message>
-    <message>
-        <source>About</source>
-        <translation>关于</translation>
-    </message>
-    <message>
-        <source>Color scheme</source>
-        <translation>颜色方案</translation>
+        <translation>Электроотрицательность</translation>
     </message>
     <message>
         <source>Electron affinity</source>
-        <translation>电子亲和能</translation>
+        <translation>Сродство к электрону</translation>
+    </message>
+    <message>
+        <source>Block</source>
+        <translation>Блоки</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>О программе</translation>
+    </message>
+    <message>
+        <source>Color scheme</source>
+        <translation>Цветовая схема</translation>
     </message>
 </context>
 </TS>
