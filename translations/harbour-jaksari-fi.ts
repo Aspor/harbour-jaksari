@@ -487,7 +487,7 @@
     </message>
     <message>
         <source>Krypton</source>
-        <translation>Kropton</translation>
+        <translation>Krypton</translation>
     </message>
     <message>
         <source>Curium</source>
@@ -1075,7 +1075,7 @@
     </message>
     <message>
         <source>Moscovium</source>
-        <translation>Moscovium</translation>
+        <translation>Moskovium</translation>
     </message>
     <message>
         <source>Roentgenium</source>

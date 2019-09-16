@@ -27,7 +27,7 @@ Page {
             ,"K","Ca",  "Sc","Ti","V","Cr","Mn","Fe","Co","Ni","Cu","Zn",   "Ga","Ge","As","Se","Br","Kr"
             ,"Rb","Sr", "Y","Zr","Nb","Mo","Tc","Ru","Rh","Pd","Ag","Cd",   "In","Sn","Sb","Te","I", "Xe"
             ,"Cs","Ba",
-            "La","Ce","Pr","Nd","Pm","Sm","Eu","Gb","Tb","Dy","Ho","Er","Tm","Yb"
+            "La","Ce","Pr","Nd","Pm","Sm","Eu","Gd","Tb","Dy","Ho","Er","Tm","Yb"
             ,"Lu","Hf","Ta","W","Re","Os","Ir","Pt","Au","Hg",  "Tl","Pb","Bi","Po","At","Rn"
             ,"Fr","Ra",
             "Ac","Th","Pa","U","Np","Pu","Am","Cm","Bk","Cf","Es","Fm","Md","No",
@@ -343,7 +343,7 @@ Page {
                         anchors.centerIn: parent
                         textFormat: Text.StyledText
                         font.pixelSize: table.rectangleSize/3
-                        text: '<font size="2">' + Number(57).toLocaleString(Qt.locale())+' - '+Number(71).toLocaleString(Qt.locale()) +'</font>'
+                        text: '<font size="2">' + Number(57).toLocaleString(Qt.locale(),'f',0)+' - '+Number(71).toLocaleString(Qt.locale(),'f',0) +'</font>'
                     }
                 }
 
@@ -376,7 +376,7 @@ Page {
                         anchors.centerIn: parent
                         textFormat: Text.StyledText
                         font.pixelSize: table.rectangleSize/3
-                        text: '<font size="2">' + Number(89).toLocaleString(Qt.locale())+' - '+Number(103).toLocaleString(Qt.locale()) +'</font>'
+                        text: '<font size="2">' + Number(89).toLocaleString(Qt.locale(),'f',0)+' - '+Number(103).toLocaleString(Qt.locale(),'f',0) +'</font>'
                     }
                 }
                 Repeater {

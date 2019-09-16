@@ -12,6 +12,11 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Mon Sep 16 2019 Timo Mäenpää 1.0.2-1
+- Russian translation
+- German translation
+- Fixed some typos
+
 * Wed Aug 28 2019 Timo Mäenpää 1.0.1-1
 - Added font scaling to table view fixing #12
 
