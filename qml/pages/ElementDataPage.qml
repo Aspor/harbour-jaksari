@@ -80,7 +80,14 @@ Page {
             }
             Item {
                 width: parent.width
-                height: Theme.paddingLarge
+                height: Theme.paddingLarge*2
+                MouseArea{
+                    width: parent.width
+                    height: parent.height
+                    onClicked: Qt.openUrlExternally(qsTr("https://en.wikipedia.org/wiki/")+'"'
+                                                    + qsTranslate("ElementDetails", qsTr(values[0])))
+                }
+
                 Label {
                     color: Theme.highlightColor
                     font.pixelSize: Theme.fontSizeSmall
@@ -91,14 +98,14 @@ Page {
                     }
                 }
                 Label {
+                    z: -1
                     horizontalAlignment: Text.AlignRight
                     color: Theme.highlightColor
                     font.pixelSize: Theme.fontSizeSmall
-                    text: '<html> <style type="text/css"></style> <a href="'+qsTr("https://en.wikipedia.org/wiki/")+'"'
-                          + qsTranslate("ElementDetails", qsTr(values[0])) + '>' + qsTranslate("ElementDetails", values[0]) + '</a> </html>'
-                    onLinkActivated: Qt.openUrlExternally(
-                                         qsTr('https://en.wikipedia.org/wiki/') +  qsTranslate("ElementDetails", values[0]))
-                    
+                    text: '<a href="'+qsTr("https://en.wikipedia.org/wiki/")+'"'
+                          + qsTranslate("ElementDetails", qsTr(values[0])) + '>' + qsTranslate("ElementDetails", values[0]) + '</a>'
+                    onLinkActivated: Qt.openUrlExternally(link)
+
                     anchors {
                         fill: parent
                         rightMargin: Theme.paddingLarge
