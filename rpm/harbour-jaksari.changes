@@ -12,6 +12,11 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+
+* Sun Dec 01 2019 Timo Mäenpää 1.0.3-2
+- Pinch to zoom in table view
+- Scroll in table view
+
 * Sun Nov 24 2019 Timo Mäenpää 1.0.3-2
 - Fixed Wikipedia link
 

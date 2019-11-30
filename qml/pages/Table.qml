@@ -153,12 +153,60 @@ Page {
         }
     }
 
-    allowedOrientations: Orientation.Landscape
+    PinchArea {
+        id: zoom
+        anchors.fill: parent
+        MouseArea{ anchors.fill: parent} // this is the workaround to allow two finger zoom
+        property var initialSize: table.rectangleSize
+        onPinchStarted: {
+            zoom.initialSize = table.rectangleSize
+        }
+        onPinchUpdated: {
+            table.rectangleSize = zoom.initialSize*pinch.scale
+        }
+        onPinchFinished: {
+            table.contentWidth = 18 * table.rectangleSize + Theme.paddingLarge*2
+            table.contentHeight = 10* table.rectangleSize + Theme.paddingLarge
+            if (periodicTable.isLandscape){
+                if (table.contentWidth<Screen.height-55){
+                    table.rectangleSize = Screen.height/25
+                    table.contentWidth = 18 * table.rectangleSize + Theme.paddingLarge*2
+                    table.contentHeight = 10* table.rectangleSize + Theme.paddingLarge
+                }
+                else if (table.contentHeight<Screen.width-55){
+                    table.rectangleSize = Screen.width/15
+                    table.contentWidth = 18 * table.rectangleSize + Theme.paddingLarge*2
+                    table.contentHeight = 10* table.rectangleSize + Theme.paddingLarge
+                }
+            }
+            else if (table.contentWidth<Screen.width){
+                table.rectangleSize = Screen.width/19
+                table.contentWidth = 18 * table.rectangleSize + Theme.paddingLarge*2
+                table.contentHeight = 10* table.rectangleSize + Theme.paddingLarge
+            }
+
+            if (table.rectangleSize>Screen.width)
+                table.rectangleSize = Screen.width
+        }
+    }
+
+    allowedOrientations: Orientation.All
     SilicaFlickable {
+        id: table
+        anchors.fill: parent
+
+        leftMargin: Theme.paddingLarge
+        property int colorScheme: 0
+        property int rectangleSize: Screen.height/19
         property var colorSchemes: [qsTr("Groups"),qsTr("CPK-color"),qsTr("Electronegativity"),qsTr("Electron affinity"),qsTr("Block")];
+        contentWidth: 18 * rectangleSize+Theme.paddingMedium
+        contentHeight: 10* rectangleSize+Theme.paddingMedium
+        VerticalScrollDecorator {}
+        HorizontalScrollDecorator {}
         MouseArea {
-            width: Screen.width
-            height: Screen.height
+            anchors.fill: parent
+           // width: Screen.width
+           // height: Screen.height
             onClicked: {
                 if(table.colorScheme == 4) {
                     table.colorScheme=0
@@ -185,12 +233,6 @@ Page {
                 }
             }
         }
-
-        id: table
-        anchors.fill: parent
-        leftMargin: Theme.paddingLarge
-        property int colorScheme: 0
-        property int rectangleSize: Screen.height/19
         Column {
             spacing: 1
             x: 0
