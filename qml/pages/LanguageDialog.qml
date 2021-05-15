@@ -6,12 +6,12 @@ Dialog{
         id: combo
         anchors.fill: parent
         menu: ContextMenu {
-                 MenuItem { text: "English" }
-                 MenuItem { text: "Finnish" }
-                 MenuItem { text: "Swedish" }
-                 MenuItem { text: "Chinese" }
-                 MenuItem { text: "Russian" }
-                 MenuItem { text: "German" }
+                 MenuItem { text: qsTr("English")+trans.emptyString }
+                 MenuItem { text: qsTr("Finnish")+trans.emptyString }
+                 MenuItem { text: qsTr("Swedish")+trans.emptyString }
+                 MenuItem { text: qsTr("Chinese")+trans.emptyString }
+                 MenuItem { text: qsTr("Russian")+trans.emptyString }
+                 MenuItem { text: qsTr("German")+trans.emptyString }
 
         }
     }

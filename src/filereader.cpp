@@ -139,6 +139,7 @@ void FileReader::setElementNum(int num) {
         key[0]=key[0].toUpper();
         m_keyList.push_back(key);
     }
+    emit elementsLoaded();
 
 }
 int FileReader::elementNum() {

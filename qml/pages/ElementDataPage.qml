@@ -33,7 +33,7 @@ Page {
     SilicaFlickable {
         PageHeader {
             id: header
-            title: qsTr("Element details")
+            title: trans.emptyString + qsTr("Element details")
         }
         anchors.fill: parent
         contentHeight: col.height+header.height+Theme.paddingLarge*2
@@ -46,21 +46,21 @@ Page {
                 right: parent.right
             }
             ElementDataSection{
-                name: qsTr("General Properties")
+                name: trans.emptyString + qsTr("General Properties")
                 repeat: 8
                 offset: 0
                 values: elementDataPage.values
                 keyList: elementDataPage.keyList
             }
             ElementDataSection{
-                name: qsTr("Physical Properties")
+                name: trans.emptyString + qsTr("Physical Properties")
                 repeat: 6
                 offset: 8
                 values: elementDataPage.values
                 keyList: elementDataPage.keyList
             }
             ElementDataSection{
-                name: qsTr("Electronic Properties")
+                name: trans.emptyString + qsTr("Electronic Properties")
                 repeat: 4
                 offset: 14
                 values: elementDataPage.values
@@ -72,7 +72,7 @@ Page {
                 font.pixelSize: Theme.fontSizeLarge
                 horizontalAlignment: Text.AlignRight
                 verticalAlignment: Text.AlignVCenter
-                text: qsTr("More info")
+                text: trans.emptyString + qsTr("More info")
                 anchors {
                     topMargin: 55
                     bottomMargin: 15
@@ -86,17 +86,17 @@ Page {
                     z: -1
                     width: parent.width
                     height: parent.height+5
-                    //onClicked: console.log("CLICK " + qsTr("https://en.wikipedia.org/wiki/")
-                     //                      + qsTranslate("ElementDetails", qsTr(values[0])) )
-                    onClicked: Qt.openUrlExternally(qsTr("https://en.wikipedia.org/wiki/")
-                                                    + qsTranslate("ElementDetails", qsTr(values[0])))
+                    //onClicked: console.log("CLICK " + trans.emptyString + qsTr("https://en.wikipedia.org/wiki/")
+                     //                      + qsTranslate("ElementDetails", trans.emptyString + qsTr(values[0])) )
+                    onClicked: Qt.openUrlExternally(trans.emptyString + qsTr("https://en.wikipedia.org/wiki/")
+                                                    + qsTranslate("ElementDetails", trans.emptyString + qsTr(values[0])))
 
                 }
 
                 Label {
                     color: Theme.highlightColor
                     font.pixelSize: Theme.fontSizeSmall
-                    text: qsTr("Wikipedia link")
+                    text: trans.emptyString + qsTr("Wikipedia link")
                     anchors {
                         fill: parent
                         leftMargin: Theme.paddingLarge
@@ -107,7 +107,7 @@ Page {
                     horizontalAlignment: Text.AlignRight
                     color: Theme.highlightColor
                     font.pixelSize: Theme.fontSizeSmall
-                    text: '<a href="'+qsTr("https://en.wikipedia.org/wiki/")+ qsTranslate("ElementDetails", qsTr(values[0])) + '">' + qsTranslate("ElementDetails", values[0]) + '</a>'
+                    text: '<a href="'+trans.emptyString + qsTr("https://en.wikipedia.org/wiki/")+ qsTranslate("ElementDetails", trans.emptyString + qsTr(values[0])) + '">' + qsTranslate("ElementDetails", values[0]) + '</a>'
                     onLinkActivated: Qt.openUrlExternally(link)
 
                     anchors {

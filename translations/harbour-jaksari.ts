@@ -1235,6 +1235,36 @@
     </message>
 </context>
 <context>
+    <name>FileReader</name>
+    <message>
+        <source>K</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>g/mol</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>g/l</source>
+        <extracomment>Unit, grams per liter</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>g/cm³</source>
+        <extracomment>Unit, grams per cubic centimeter</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>J/(mol·K)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>kJ/mol</source>
+        <extracomment>Unit, Kilojoules per mole</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>Table</name>
     <message>
         <source>Groups</source>
@@ -1262,6 +1292,10 @@
     </message>
     <message>
         <source>Color scheme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Language</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

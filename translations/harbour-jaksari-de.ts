@@ -1238,12 +1238,10 @@
     <name>FileReader</name>
     <message>
         <source>K</source>
-        <extracomment>Unit, Kelvins</extracomment>
         <translation>K</translation>
     </message>
     <message>
         <source>g/mol</source>
-        <extracomment>Unit, grams per mole</extracomment>
         <translation>g/mol</translation>
     </message>
     <message>
@@ -1258,7 +1256,6 @@
     </message>
     <message>
         <source>J/(mol·K)</source>
-        <extracomment>Unit, Joules per ( mole * Kelvin )</extracomment>
         <translation>J/(mol·K)</translation>
     </message>
     <message>
@@ -1296,6 +1293,10 @@
     <message>
         <source>Color scheme</source>
         <translation>Farbschema</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

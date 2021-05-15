@@ -26,7 +26,7 @@ Item {
         id: tagLabel
         color: Theme.highlightColor
         font.pixelSize: Theme.fontSizeSmall
-        text:  qsTranslate("ElementDetails", root.tag)
+        text:  qsTranslate("ElementDetails", root.tag) + trans.emptyString
         anchors {
             fill: parent
             leftMargin: Theme.paddingLarge
@@ -37,7 +37,7 @@ Item {
         horizontalAlignment: Text.AlignRight
         color: Theme.highlightColor
         font.pixelSize: Theme.fontSizeSmall
-        text: qsTranslate("ElementDetails", root.value)
+        text: qsTranslate("ElementDetails", root.value) +trans.emptyString
         wrapMode: Text.WrapAtWordBoundaryOrAnywhere
         anchors {
             right: parent.right

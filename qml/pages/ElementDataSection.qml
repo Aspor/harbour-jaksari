@@ -40,8 +40,8 @@ Item {
     Repeater {
         model: repeat
         delegate: ElementItem {
-            tag: section.keyList[index+section.offset]
-            value: String(section.values[index+section.offset])
+            tag: String(section.keyList[index+section.offset]) +trans.emptyString
+            value: String(section.values[index+section.offset]) +trans.emptyString
         }
     }
     }

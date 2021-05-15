@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ru" sourcelanguage="en">
+<TS version="2.1" language="en_GB" sourcelanguage="en">
 <context>
     <name>AboutPage</name>
     <message>
         <source>About Jaksari</source>
-        <translation>О программе Jaksari</translation>
+        <translation>About Jaksari</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Версия</translation>
+        <translation>Version</translation>
     </message>
     <message>
         <source>License: GPLv3 or later</source>
-        <translation>Лицензия: GPLv3 или новее</translation>
+        <translation>License: GPLv3 or later</translation>
     </message>
     <message>
         <source>Atom data:</source>
-        <translation>Описания элементов:</translation>
+        <translation>Atom data:</translation>
     </message>
     <message>
         <source>and</source>
-        <translation>и</translation>
+        <translation>and</translation>
     </message>
 </context>
 <context>
     <name>ElementDataPage</name>
     <message>
         <source>Element details</source>
-        <translation>Свойства элемента</translation>
+        <translation>Element details</translation>
     </message>
     <message>
         <source>General Properties</source>
-        <translation>Общие</translation>
+        <translation>General Properties</translation>
     </message>
     <message>
         <source>Physical Properties</source>
-        <translation>Физические</translation>
+        <translation>Physical Properties</translation>
     </message>
     <message>
         <source>Electronic Properties</source>
-        <translation>Электронные</translation>
+        <translation>Electronic Properties</translation>
     </message>
     <message>
         <source>More info</source>
-        <translation>Дополнительно</translation>
+        <translation>More info</translation>
     </message>
     <message>
         <source>Wikipedia link</source>
-        <translation>Ссылка в Wikipedia</translation>
+        <translation>Wikipedia link</translation>
     </message>
     <message>
         <source>https://en.wikipedia.org/wiki/</source>
@@ -59,83 +59,83 @@
     <name>ElementDetails</name>
     <message>
         <source>Name</source>
-        <translation>Название</translation>
+        <translation>Name</translation>
     </message>
     <message>
         <source>Symbol</source>
-        <translation>Символ</translation>
+        <translation>Symbol</translation>
     </message>
     <message>
         <source>Number</source>
-        <translation>Номер</translation>
+        <translation>Number</translation>
     </message>
     <message>
         <source>Period</source>
-        <translation>Период</translation>
+        <translation>Period</translation>
     </message>
     <message>
         <source>Category</source>
-        <translation>Категория</translation>
+        <translation>Category</translation>
     </message>
     <message>
         <source>Appearance</source>
-        <translation>Внешний вид (цвет)</translation>
+        <translation>Appearance</translation>
     </message>
     <message>
         <source>Discovered by</source>
-        <translation>Первооткрыватель</translation>
+        <translation>Discovered by</translation>
     </message>
     <message>
         <source>Named by</source>
-        <translation>Кем назван</translation>
+        <translation>Named by</translation>
     </message>
     <message>
         <source>Phase</source>
-        <translation>Агрегатное состояние</translation>
+        <translation>Phase</translation>
     </message>
     <message>
         <source>Atomic mass</source>
-        <translation>Атомная масса</translation>
+        <translation>Atomic mass</translation>
     </message>
     <message>
         <source>Density</source>
-        <translation>Плотность</translation>
+        <translation>Density</translation>
     </message>
     <message>
         <source>Boil</source>
-        <translation>Температура кипения</translation>
+        <translation>Boil</translation>
     </message>
     <message>
         <source>Melt</source>
-        <translation>Температура плавления</translation>
+        <translation>Melt</translation>
     </message>
     <message>
         <source>Molar heat</source>
-        <translation>Молярная теплоёмкость</translation>
+        <translation>Molar heat</translation>
     </message>
     <message>
         <source>Electron affinity</source>
-        <translation>Сродство к электрону</translation>
+        <translation>Electron affinity</translation>
     </message>
     <message>
         <source>Electronegativity pauling</source>
-        <translation>Электроотрицательность Полинга</translation>
+        <translation>Electronegativity pauling</translation>
     </message>
     <message>
         <source>Electron configuration</source>
-        <translation>Электронная конфигурация</translation>
+        <translation>Electron configuration</translation>
     </message>
     <message>
         <source>Ionization energies</source>
-        <translation>Энергия ионизации</translation>
+        <translation>Ionization energies</translation>
     </message>
     <message>
         <source>Unknown, before 3000 BC</source>
-        <translation>Неизвестно, более 3000 до н.э.</translation>
+        <translation>Unknown, before 3000 BC</translation>
     </message>
     <message>
         <source>Samarium</source>
-        <translation>Самарий</translation>
+        <translation>Samarium</translation>
     </message>
     <message>
         <source>Karl Ernst Claus</source>
@@ -147,11 +147,11 @@
     </message>
     <message>
         <source>Iridium</source>
-        <translation>Иридий</translation>
+        <translation>Iridium</translation>
     </message>
     <message>
         <source>Neptunium</source>
-        <translation>Нептуний</translation>
+        <translation>Neptunium</translation>
     </message>
     <message>
         <source>Henry Cavendish</source>
@@ -167,23 +167,23 @@
     </message>
     <message>
         <source>Silvery lustrous gray</source>
-        <translation>Серебристо-серый, блестящий</translation>
+        <translation>Silvery lustrous gray</translation>
     </message>
     <message>
         <source>Grayish-white</source>
-        <translation>Серовато-белый</translation>
+        <translation>Grayish-white</translation>
     </message>
     <message>
         <source>Neodymium</source>
-        <translation>Неодим</translation>
+        <translation>Neodymium</translation>
     </message>
     <message>
         <source>Silvery, often with black tarnish</source>
-        <translation>Серебристый, часто с черным налетом</translation>
+        <translation>Silvery, often with black tarnish</translation>
     </message>
     <message>
         <source>Bromine</source>
-        <translation>Бром</translation>
+        <translation>Bromine</translation>
     </message>
     <message>
         <source>Marguerite Perey</source>
@@ -195,11 +195,11 @@
     </message>
     <message>
         <source>Niobium</source>
-        <translation>Ниобий</translation>
+        <translation>Niobium</translation>
     </message>
     <message>
         <source>Tantalum</source>
-        <translation>Тантал</translation>
+        <translation>Tantalum</translation>
     </message>
     <message>
         <source>Antoine Jérôme Balard</source>
@@ -207,7 +207,7 @@
     </message>
     <message>
         <source>Crystalline, reflective with bluish-tinged faces</source>
-        <translation>Кристаллы с зеркальными гранями имеющими синеватый отлив</translation>
+        <translation>Crystalline, reflective with bluish-tinged faces</translation>
     </message>
     <message>
         <source>Axel Fredrik Cronstedt</source>
@@ -219,31 +219,31 @@
     </message>
     <message>
         <source>Erbium</source>
-        <translation>Эрбий</translation>
+        <translation>Erbium</translation>
     </message>
     <message>
         <source>Phosphorus</source>
-        <translation>Фосфор</translation>
+        <translation>Phosphorus</translation>
     </message>
     <message>
         <source>Silvery bluish-gray metallic</source>
-        <translation>Серебристый голубовато-серый, с металлическим блеском</translation>
+        <translation>Silvery bluish-gray metallic</translation>
     </message>
     <message>
         <source>Grayish white, lustrous</source>
-        <translation>Блестящий, серовато-белый</translation>
+        <translation>Grayish white, lustrous</translation>
     </message>
     <message>
         <source>Lithium</source>
-        <translation>Литий</translation>
+        <translation>Lithium</translation>
     </message>
     <message>
         <source>Holmium</source>
-        <translation>Гольмий</translation>
+        <translation>Holmium</translation>
     </message>
     <message>
         <source>Post-transition metal</source>
-        <translation>Постпереходный металл</translation>
+        <translation>Post-transition metal</translation>
     </message>
     <message>
         <source>Jöns Jakob Berzelius</source>
@@ -251,11 +251,11 @@
     </message>
     <message>
         <source>Palladium</source>
-        <translation>Палладий</translation>
+        <translation>Palladium</translation>
     </message>
     <message>
         <source>Iodine</source>
-        <translation>Йод</translation>
+        <translation>Iodine</translation>
     </message>
     <message>
         <source>Dirk Coster</source>
@@ -267,7 +267,7 @@
     </message>
     <message>
         <source>Tellurium</source>
-        <translation>Теллур</translation>
+        <translation>Tellurium</translation>
     </message>
     <message>
         <source>Lars Fredrik Nilson</source>
@@ -275,19 +275,19 @@
     </message>
     <message>
         <source>Hafnium</source>
-        <translation>Гафний</translation>
+        <translation>Hafnium</translation>
     </message>
     <message>
         <source>Rubidium</source>
-        <translation>Рубидий</translation>
+        <translation>Rubidium</translation>
     </message>
     <message>
         <source>Meitnerium</source>
-        <translation>Мейтнерий</translation>
+        <translation>Meitnerium</translation>
     </message>
     <message>
         <source>Sodium</source>
-        <translation>Натрий</translation>
+        <translation>Sodium</translation>
     </message>
     <message>
         <source>Antonio de Ulloa</source>
@@ -295,23 +295,23 @@
     </message>
     <message>
         <source>Colorless gas exhibiting an orange-red glow when placed in a high voltage electric field</source>
-        <translation>Бесцветный газ. В электрическом поле высокой интенсивности светится оранжево-красным.</translation>
+        <translation>Colorless gas exhibiting an orange-red glow when placed in a high voltage electric field</translation>
     </message>
     <message>
         <source>Unknown, predicted to be noble gas</source>
-        <translation>Неизвестно, по прогнозу будет инертным газом</translation>
+        <translation>Unknown, predicted to be noble gas</translation>
     </message>
     <message>
         <source>Selenium</source>
-        <translation>Селен</translation>
+        <translation>Selenium</translation>
     </message>
     <message>
         <source>Magnesium</source>
-        <translation>Магний</translation>
+        <translation>Magnesium</translation>
     </message>
     <message>
         <source>Livermorium</source>
-        <translation>Ливерморий</translation>
+        <translation>Livermorium</translation>
     </message>
     <message>
         <source>Otto Hahn</source>
@@ -319,52 +319,51 @@
     </message>
     <message>
         <source>Silvery gray metallic</source>
-        <translation>Серебристо-серый, металлический блеск</translation>
+        <translation>Silvery gray metallic</translation>
     </message>
     <message>
         <source>Iron</source>
-        <translation>Железо</translation>
+        <translation>Iron</translation>
     </message>
     <message>
         <source>Tennessine</source>
-        <translation>Теннессин</translation>
+        <translation>Tennessine</translation>
     </message>
     <message>
         <source>Metallic yellow</source>
-        <translation>Металлический желтый</translation>
+        <translation>Metallic yellow</translation>
     </message>
     <message>
         <source>Cadmium</source>
-        <translation>Кадмий</translation>
+        <translation>Cadmium</translation>
     </message>
     <message>
         <source>Ytterbium</source>
-        <translation>Иттербий</translation>
+        <translation>Ytterbium</translation>
     </message>
     <message>
         <source>Oxygen</source>
-        <translation>Кислород</translation>
+        <translation>Oxygen</translation>
     </message>
     <message>
         <source>Red-orange metallic luster</source>
-        <translation>Красно-оранжевый металлический блеск
-</translation>
+        <translation>Red-orange metallic luster</translation>
     </message>
     <message>
         <source>Colorless gas, exhibiting a blue glow when placed in a high voltage electric field</source>
-        <translation>Бесцветный газ. В электрическом поле высокой интенсивности светится синим.</translation>
+        <translation>Colorless gas, exhibiting a blue glow when placed in a high voltage electric field</translation>
     </message>
     <message>
         <source>Boron</source>
-        <translation>Бор</translation>
+        <translation>Boron</translation>
     </message>
     <message>
         <source>Argon</source>
-        <translation>Аргон</translation>
+        <translation>Argon</translation>
     </message>
     <message>
         <source>Silver-white</source>
-        <translation>Серебристо-белый</translation>
+        <translation>Silver-white</translation>
     </message>
     <message>
         <source>Lawrence Berkeley National Laboratory</source>
@@ -372,7 +371,7 @@
     </message>
     <message>
         <source>Einsteinium</source>
-        <translation>Эйнштейний</translation>
+        <translation>Einsteinium</translation>
     </message>
     <message>
         <source>Ferdinand Reich</source>
@@ -380,15 +379,15 @@
     </message>
     <message>
         <source>Molybdenum</source>
-        <translation>Молибден</translation>
+        <translation>Molybdenum</translation>
     </message>
     <message>
         <source>Aluminium</source>
-        <translation>Алюминий</translation>
+        <translation>Aluminium</translation>
     </message>
     <message>
         <source>Colourless, waxy white, yellow, scarlet, red, violet, black</source>
-        <translation>Бесцветный, восковидный белый, желтый, алый, красный, фиолетовый, черный</translation>
+        <translation>Colourless, waxy white, yellow, scarlet, red, violet, black</translation>
     </message>
     <message>
         <source>Claude François Geoffroy</source>
@@ -400,35 +399,35 @@
     </message>
     <message>
         <source>Silver</source>
-        <translation>Серебро</translation>
+        <translation>Silver</translation>
     </message>
     <message>
         <source>Indium</source>
-        <translation>Индий</translation>
+        <translation>Indium</translation>
     </message>
     <message>
         <source>Silvery, blue cast</source>
-        <translation>Серебристый, синий отлив</translation>
+        <translation>Silvery, blue cast</translation>
     </message>
     <message>
         <source>Noble gas</source>
-        <translation>Инертный газ</translation>
+        <translation>Noble gas</translation>
     </message>
     <message>
         <source>Thulium</source>
-        <translation>Туллий</translation>
+        <translation>Thulium</translation>
     </message>
     <message>
         <source>Copper</source>
-        <translation>Медь</translation>
+        <translation>Copper</translation>
     </message>
     <message>
         <source>Hassium</source>
-        <translation>Хассий</translation>
+        <translation>Hassium</translation>
     </message>
     <message>
         <source>Titanium</source>
-        <translation>Титан</translation>
+        <translation>Titanium</translation>
     </message>
     <message>
         <source>Robert Bunsen</source>
@@ -436,79 +435,79 @@
     </message>
     <message>
         <source>Joint Institute for Nuclear Research</source>
-        <translation>Объединённый институт ядерных исследований</translation>
+        <translation>Joint Institute for Nuclear Research</translation>
     </message>
     <message>
         <source>Black, red, and gray (not pictured) allotropes</source>
-        <translation>Черные, красные и серые (не показано) аллотропы</translation>
+        <translation>Black, red, and gray (not pictured) allotropes</translation>
     </message>
     <message>
         <source>Silvery grey-white metallic</source>
-        <translation>Серебристый серо-белый металлический</translation>
+        <translation>Silvery grey-white metallic</translation>
     </message>
     <message>
         <source>Bronze Age</source>
-        <translation>Бронзовый век</translation>
+        <translation>Bronze Age</translation>
     </message>
     <message>
         <source>Silvery-grayish</source>
-        <translation>Серебристо-сероватый</translation>
+        <translation>Silvery-grayish</translation>
     </message>
     <message>
         <source>Technetium</source>
-        <translation>Технеций</translation>
+        <translation>Technetium</translation>
     </message>
     <message>
         <source>Cesium</source>
-        <translation>Цезий</translation>
+        <translation>Cesium</translation>
     </message>
     <message>
         <source>Francium</source>
-        <translation>Франций</translation>
+        <translation>Francium</translation>
     </message>
     <message>
         <source>Nobelium</source>
-        <translation>Нобелий</translation>
+        <translation>Nobelium</translation>
     </message>
     <message>
         <source>Nitrogen</source>
-        <translation>Азот</translation>
+        <translation>Nitrogen</translation>
     </message>
     <message>
         <source>Tungsten</source>
-        <translation>Вольфрам</translation>
+        <translation>Tungsten</translation>
     </message>
     <message>
         <source>Gray blue</source>
-        <translation>Голубовато-серый</translation>
+        <translation>Gray blue</translation>
     </message>
     <message>
         <source>Unknown, probably metalloid</source>
-        <translation>Неизвестно, предположительно металлоид</translation>
+        <translation>Unknown, probably metalloid</translation>
     </message>
     <message>
         <source>Krypton</source>
-        <translation>Криптон</translation>
+        <translation>Krypton</translation>
     </message>
     <message>
         <source>Curium</source>
-        <translation>Кюрий</translation>
+        <translation>Curium</translation>
     </message>
     <message>
         <source>Americium</source>
-        <translation>Америций</translation>
+        <translation>Americium</translation>
     </message>
     <message>
         <source>Colorless gas, exhibiting a whitish glow in a high electric field</source>
-        <translation>Бесцветный газ. В электрическом поле высокой интенсивности светится белым.</translation>
+        <translation>Colorless gas, exhibiting a whitish glow in a high electric field</translation>
     </message>
     <message>
         <source>Berkelium</source>
-        <translation>Берклий</translation>
+        <translation>Berkelium</translation>
     </message>
     <message>
         <source>Barium</source>
-        <translation>Барий</translation>
+        <translation>Barium</translation>
     </message>
     <message>
         <source>Antoine Lavoisier</source>
@@ -516,27 +515,27 @@
     </message>
     <message>
         <source>Dubnium</source>
-        <translation>Дубний</translation>
+        <translation>Dubnium</translation>
     </message>
     <message>
         <source>Strontium</source>
-        <translation>Стронций</translation>
+        <translation>Strontium</translation>
     </message>
     <message>
         <source>Rhodium</source>
-        <translation>Родий</translation>
+        <translation>Rhodium</translation>
     </message>
     <message>
         <source>Sulfur</source>
-        <translation>Сера</translation>
+        <translation>Sulfur</translation>
     </message>
     <message>
         <source>Metallic grey</source>
-        <translation>Металлически-серый</translation>
+        <translation>Metallic grey</translation>
     </message>
     <message>
         <source>Californium</source>
-        <translation>Калифорний</translation>
+        <translation>Californium</translation>
     </message>
     <message>
         <source>Humphry Davy</source>
@@ -544,7 +543,7 @@
     </message>
     <message>
         <source>Polyatomic nonmetal</source>
-        <translation>Многоатомный неметалл</translation>
+        <translation>Polyatomic nonmetal</translation>
     </message>
     <message>
         <source>Friedrich Oskar Giesel</source>
@@ -552,11 +551,11 @@
     </message>
     <message>
         <source>Hydrogen</source>
-        <translation>Водород</translation>
+        <translation>Hydrogen</translation>
     </message>
     <message>
         <source>Platinum</source>
-        <translation>Платина</translation>
+        <translation>Platinum</translation>
     </message>
     <message>
         <source>Louis Nicolas Vauquelin</source>
@@ -564,23 +563,23 @@
     </message>
     <message>
         <source>Black-brown</source>
-        <translation>Черно-коричневый</translation>
+        <translation>Black-brown</translation>
     </message>
     <message>
         <source>Arsenic</source>
-        <translation>Мышьяк</translation>
+        <translation>Arsenic</translation>
     </message>
     <message>
         <source>Flerovium</source>
-        <translation>Флеровий</translation>
+        <translation>Flerovium</translation>
     </message>
     <message>
         <source>Alkaline earth metal</source>
-        <translation>Щёлочноземельный металл</translation>
+        <translation>Alkaline earth metal</translation>
     </message>
     <message>
         <source>Lemon yellow sintered microcrystals</source>
-        <translation>Лимонно-жёлтые спёкшиеся микрокристаллы</translation>
+        <translation>Lemon yellow sintered microcrystals</translation>
     </message>
     <message>
         <source>Clemens Winkler</source>
@@ -588,15 +587,15 @@
     </message>
     <message>
         <source>Blue-silver-grey metal</source>
-        <translation>Сине-серебристо-серый металл</translation>
+        <translation>Blue-silver-grey metal</translation>
     </message>
     <message>
         <source>Silvery white</source>
-        <translation>Серебристо-белый</translation>
+        <translation>Silvery white</translation>
     </message>
     <message>
         <source>Carbon</source>
-        <translation>Углерод</translation>
+        <translation>Carbon</translation>
     </message>
     <message>
         <source>Morris Travers</source>
@@ -608,15 +607,15 @@
     </message>
     <message>
         <source>Bohrium</source>
-        <translation>Борий</translation>
+        <translation>Bohrium</translation>
     </message>
     <message>
         <source>Bismuth</source>
-        <translation>Висмут</translation>
+        <translation>Bismuth</translation>
     </message>
     <message>
         <source>Manganese</source>
-        <translation>Марганец</translation>
+        <translation>Manganese</translation>
     </message>
     <message>
         <source>Georg Brandt</source>
@@ -624,7 +623,7 @@
     </message>
     <message>
         <source>Zirconium</source>
-        <translation>Цирконий</translation>
+        <translation>Zirconium</translation>
     </message>
     <message>
         <source>Edwin McMillan</source>
@@ -632,7 +631,7 @@
     </message>
     <message>
         <source>Potassium</source>
-        <translation>Калий</translation>
+        <translation>Potassium</translation>
     </message>
     <message>
         <source>William Hyde Wollaston</source>
@@ -644,19 +643,19 @@
     </message>
     <message>
         <source>Silvery metallic, glows purple in the dark</source>
-        <translation>Серебристо-металлический цвет, светится пурпурным в темноте </translation>
+        <translation>Silvery metallic, glows purple in the dark</translation>
     </message>
     <message>
         <source>Lanthanum</source>
-        <translation>Лантан</translation>
+        <translation>Lanthanum</translation>
     </message>
     <message>
         <source>Promethium</source>
-        <translation>Прометий</translation>
+        <translation>Promethium</translation>
     </message>
     <message>
         <source>Nihonium</source>
-        <translation>Нихоний</translation>
+        <translation>Nihonium</translation>
     </message>
     <message>
         <source>Andrés Manuel del Río</source>
@@ -664,7 +663,7 @@
     </message>
     <message>
         <source>Grey white</source>
-        <translation>Серо-белый</translation>
+        <translation>Grey white</translation>
     </message>
     <message>
         <source>Joseph Black</source>
@@ -672,11 +671,11 @@
     </message>
     <message>
         <source>Rhenium</source>
-        <translation>Рений</translation>
+        <translation>Rhenium</translation>
     </message>
     <message>
         <source>Gray metallic, bluish when oxidized</source>
-        <translation>Серо-металлический, синеватый при окислении</translation>
+        <translation>Gray metallic, bluish when oxidized</translation>
     </message>
     <message>
         <source>Lord Rayleigh</source>
@@ -684,19 +683,19 @@
     </message>
     <message>
         <source>Nickel</source>
-        <translation>Никель</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Astatine</source>
-        <translation>Астат</translation>
+        <translation>Astatine</translation>
     </message>
     <message>
         <source>Radium</source>
-        <translation>Радий</translation>
+        <translation>Radium</translation>
     </message>
     <message>
         <source>Silver-colored</source>
-        <translation>Серебристый</translation>
+        <translation>Silver-colored</translation>
     </message>
     <message>
         <source>Torbern Olof Bergman</source>
@@ -712,31 +711,31 @@
     </message>
     <message>
         <source>Unknown, probably metallic</source>
-        <translation>Неизвестно, предположительно металлический</translation>
+        <translation>Unknown, probably metallic</translation>
     </message>
     <message>
         <source>Osmium</source>
-        <translation>Осмий</translation>
+        <translation>Osmium</translation>
     </message>
     <message>
         <source>Terbium</source>
-        <translation>Тербий</translation>
+        <translation>Terbium</translation>
     </message>
     <message>
         <source>Seaborgium</source>
-        <translation>Сиборгий</translation>
+        <translation>Seaborgium</translation>
     </message>
     <message>
         <source>Silvery white, tarnishing to dark gray in air</source>
-        <translation>Серебисто-белый. На воздухе покрывается тёмно-серым налётом.</translation>
+        <translation>Silvery white, tarnishing to dark gray in air</translation>
     </message>
     <message>
         <source>Shiny grey solid</source>
-        <translation>Блестящий твёрдый серый</translation>
+        <translation>Shiny grey solid</translation>
     </message>
     <message>
         <source>Praseodymium</source>
-        <translation>Празеодим</translation>
+        <translation>Praseodymium</translation>
     </message>
     <message>
         <source>RIKEN</source>
@@ -752,7 +751,7 @@
     </message>
     <message>
         <source>Metallic</source>
-        <translation>Металлический</translation>
+        <translation>Metallic</translation>
     </message>
     <message>
         <source>Gesellschaft für Schwerionenforschung</source>
@@ -760,11 +759,11 @@
     </message>
     <message>
         <source>India</source>
-        <translation>Индия</translation>
+        <translation>India</translation>
     </message>
     <message>
         <source>Gray metallic</source>
-        <translation>Серый металлический</translation>
+        <translation>Gray metallic</translation>
     </message>
     <message>
         <source>Karl Samuel Leberecht Hermann</source>
@@ -772,67 +771,67 @@
     </message>
     <message>
         <source>Gallium</source>
-        <translation>Галлий</translation>
+        <translation>Gallium</translation>
     </message>
     <message>
         <source>Silvery-white</source>
-        <translation>Серебристо-белый</translation>
+        <translation>Silvery-white</translation>
     </message>
     <message>
         <source>Radon</source>
-        <translation>Радон</translation>
+        <translation>Radon</translation>
     </message>
     <message>
         <source>Colorless gas</source>
-        <translation>Бесцветный газ</translation>
+        <translation>Colorless gas</translation>
     </message>
     <message>
         <source>Beryllium</source>
-        <translation>Бериллий</translation>
+        <translation>Beryllium</translation>
     </message>
     <message>
         <source>Actinide</source>
-        <translation>Актинид</translation>
+        <translation>Actinide</translation>
     </message>
     <message>
         <source>Bright, silvery metallic luster</source>
-        <translation>Светлый, с серебристым металлическим блеском</translation>
+        <translation>Bright, silvery metallic luster</translation>
     </message>
     <message>
         <source>Isotopes of promethium</source>
-        <translation>Изотопы прометия</translation>
+        <translation>Isotopes of promethium</translation>
     </message>
     <message>
         <source>Uranium</source>
-        <translation>Уран</translation>
+        <translation>Uranium</translation>
     </message>
     <message>
         <source>Germanium</source>
-        <translation>Германий</translation>
+        <translation>Germanium</translation>
     </message>
     <message>
         <source>Oganesson</source>
-        <translation>Оганесон</translation>
+        <translation>Oganesson</translation>
     </message>
     <message>
         <source>Helium</source>
-        <translation>Гелий</translation>
+        <translation>Helium</translation>
     </message>
     <message>
         <source>Neon</source>
-        <translation>Неон</translation>
+        <translation>Neon</translation>
     </message>
     <message>
         <source>Transition metal</source>
-        <translation>Переходный металл</translation>
+        <translation>Transition metal</translation>
     </message>
     <message>
         <source>5000 BC</source>
-        <translation>5000 до н.э.</translation>
+        <translation>5000 BC</translation>
     </message>
     <message>
         <source>Solid</source>
-        <translation>Твёрдое</translation>
+        <translation>Solid</translation>
     </message>
     <message>
         <source>William Ramsay</source>
@@ -840,7 +839,7 @@
     </message>
     <message>
         <source>Silvery gold</source>
-        <translation>Серебристо-золотой</translation>
+        <translation>Silvery gold</translation>
     </message>
     <message>
         <source>William Gregor</source>
@@ -852,11 +851,11 @@
     </message>
     <message>
         <source>Silicon</source>
-        <translation>Кремний</translation>
+        <translation>Silicon</translation>
     </message>
     <message>
         <source>Scandium</source>
-        <translation>Скандий</translation>
+        <translation>Scandium</translation>
     </message>
     <message>
         <source>Masataka Ogawa</source>
@@ -864,31 +863,31 @@
     </message>
     <message>
         <source>Thallium</source>
-        <translation>Таллий</translation>
+        <translation>Thallium</translation>
     </message>
     <message>
         <source>Actinium</source>
-        <translation>Актиний</translation>
+        <translation>Actinium</translation>
     </message>
     <message>
         <source>Fluorine</source>
-        <translation>Фтор</translation>
+        <translation>Fluorine</translation>
     </message>
     <message>
         <source>Colorless gas exhibiting a lilac/violet glow when placed in a high voltage electric field</source>
-        <translation>Бесцветный газ. В электрическом поле высокой интенсивности светится лиловым/фиолетовым.</translation>
+        <translation>Colorless gas exhibiting a lilac/violet glow when placed in a high voltage electric field</translation>
     </message>
     <message>
         <source>Isotopes of cadmium</source>
-        <translation>Изотопы кадмия</translation>
+        <translation>Isotopes of cadmium</translation>
     </message>
     <message>
         <source>Unknown, probably transition metal</source>
-        <translation>Неизвестно, предположительно переходный металл.</translation>
+        <translation>Unknown, probably transition metal</translation>
     </message>
     <message>
         <source>Tin</source>
-        <translation>Олово</translation>
+        <translation>Tin</translation>
     </message>
     <message>
         <source>Carl Wilhelm Scheele</source>
@@ -896,19 +895,19 @@
     </message>
     <message>
         <source>Xenon</source>
-        <translation>Ксенон</translation>
+        <translation>Xenon</translation>
     </message>
     <message>
         <source>Silvery metallic</source>
-        <translation>Серебристый металлический</translation>
+        <translation>Silvery metallic</translation>
     </message>
     <message>
         <source>Europium</source>
-        <translation>Европий</translation>
+        <translation>Europium</translation>
     </message>
     <message>
         <source>Unknown, before 5000 BC</source>
-        <translation>Неизвестно, ранее 5000 до н.э.</translation>
+        <translation>Unknown, before 5000 BC</translation>
     </message>
     <message>
         <source>Dale R. Corson</source>
@@ -924,7 +923,7 @@
     </message>
     <message>
         <source>Shiny gray metal</source>
-        <translation>Блестящий серый металл</translation>
+        <translation>Shiny gray metal</translation>
     </message>
     <message>
         <source>Jean-Antoine Chaptal</source>
@@ -932,23 +931,23 @@
     </message>
     <message>
         <source>Unknown, before 2000 BCE</source>
-        <translation>Неизвестно, ранее 2000 до н.э.</translation>
+        <translation>Unknown, before 2000 BCE</translation>
     </message>
     <message>
         <source>Plutonium</source>
-        <translation>Плутоний</translation>
+        <translation>Plutonium</translation>
     </message>
     <message>
         <source>Unknown, before 3500 BC</source>
-        <translation>Неизвестно, ранее 3500 до н.э.</translation>
+        <translation>Unknown, before 3500 BC</translation>
     </message>
     <message>
         <source>Metalloid</source>
-        <translation>Металлоид</translation>
+        <translation>Metalloid</translation>
     </message>
     <message>
         <source>Silvery gray</source>
-        <translation>Серебристо-серый</translation>
+        <translation>Silvery gray</translation>
     </message>
     <message>
         <source>Carl Auer von Welsbach</source>
@@ -956,7 +955,7 @@
     </message>
     <message>
         <source>Chlorine</source>
-        <translation>Хлор</translation>
+        <translation>Chlorine</translation>
     </message>
     <message>
         <source>Martin Heinrich Klaproth</source>
@@ -964,67 +963,67 @@
     </message>
     <message>
         <source>Yttrium</source>
-        <translation>Иттрий</translation>
+        <translation>Yttrium</translation>
     </message>
     <message>
         <source>Cerium</source>
-        <translation>Церий</translation>
+        <translation>Cerium</translation>
     </message>
     <message>
         <source>Gold</source>
-        <translation>Золото</translation>
+        <translation>Gold</translation>
     </message>
     <message>
         <source>Protactinium</source>
-        <translation>Протактиний</translation>
+        <translation>Protactinium</translation>
     </message>
     <message>
         <source>Mendelevium</source>
-        <translation>Менделевий</translation>
+        <translation>Mendelevium</translation>
     </message>
     <message>
         <source>Rutherfordium</source>
-        <translation>Резерфордий</translation>
+        <translation>Rutherfordium</translation>
     </message>
     <message>
         <source>Metallic gray</source>
-        <translation>Металлически-серый</translation>
+        <translation>Metallic gray</translation>
     </message>
     <message>
         <source>Diatomic nonmetal</source>
-        <translation>Двухатомный неметалл</translation>
+        <translation>Diatomic nonmetal</translation>
     </message>
     <message>
         <source>Isotopes of vanadium</source>
-        <translation>Изотопы ванадия</translation>
+        <translation>Isotopes of vanadium</translation>
     </message>
     <message>
         <source>Fermium</source>
-        <translation>Фермий</translation>
+        <translation>Fermium</translation>
     </message>
     <message>
         <source>Darmstadtium</source>
-        <translation>Дармштадтий</translation>
+        <translation>Darmstadtium</translation>
     </message>
     <message>
         <source>Lanthanide</source>
-        <translation>Лантанид</translation>
+        <translation>Lanthanide</translation>
     </message>
     <message>
         <source>Colorless gas, exhibiting a red-orange glow when placed in a high-voltage electric field</source>
-        <translation>Бесцветный газ. В электрическом поле высокой интенсивности светится красно-оранжевым.</translation>
+        <translation>Colorless gas, exhibiting a red-orange glow when placed in a high-voltage electric field</translation>
     </message>
     <message>
         <source>Lustrous silver</source>
-        <translation>Блестящий серебряный</translation>
+        <translation>Lustrous silver</translation>
     </message>
     <message>
         <source>Vanadium</source>
-        <translation>Ванадий</translation>
+        <translation>Vanadium</translation>
     </message>
     <message>
         <source>Lustrous metallic with a grayish tinge</source>
-        <translation>Блестящий металлический с сероватым оттенком</translation>
+        <translation>Lustrous metallic with a grayish tinge</translation>
     </message>
     <message>
         <source>Chien Shiung Wu</source>
@@ -1032,7 +1031,7 @@
     </message>
     <message>
         <source>Hard lustrous gray metal</source>
-        <translation>Твёрдый блестящий серый металл</translation>
+        <translation>Hard lustrous gray metal</translation>
     </message>
     <message>
         <source>Franz-Joseph Müller von Reichenstein</source>
@@ -1040,23 +1039,23 @@
     </message>
     <message>
         <source>White-gray metallic</source>
-        <translation>Бело-серый металлический</translation>
+        <translation>White-gray metallic</translation>
     </message>
     <message>
         <source>Lustrous, metallic, and silver with a gold tinge</source>
-        <translation>Блестящий металлический и серебряный с золотистым оттенком</translation>
+        <translation>Lustrous, metallic, and silver with a gold tinge</translation>
     </message>
     <message>
         <source>Lustrous metallic gray, violet as a gas</source>
-        <translation>Блестящий металлически-серый, в газообразном состоянии фиолетовый</translation>
+        <translation>Lustrous metallic gray, violet as a gas</translation>
     </message>
     <message>
         <source>Gas</source>
-        <translation>Газ</translation>
+        <translation>Gas</translation>
     </message>
     <message>
         <source>Calcium</source>
-        <translation>Кальций</translation>
+        <translation>Calcium</translation>
     </message>
     <message>
         <source>Daniel Rutherford</source>
@@ -1064,11 +1063,11 @@
     </message>
     <message>
         <source>Cobalt</source>
-        <translation>Кобальт</translation>
+        <translation>Cobalt</translation>
     </message>
     <message>
         <source>Lead</source>
-        <translation>Свинец</translation>
+        <translation>Lead</translation>
     </message>
     <message>
         <source>Lecoq de Boisbaudran</source>
@@ -1076,75 +1075,75 @@
     </message>
     <message>
         <source>Moscovium</source>
-        <translation>Московий</translation>
+        <translation>Moscovium</translation>
     </message>
     <message>
         <source>Roentgenium</source>
-        <translation>Рентгений</translation>
+        <translation>Roentgenium</translation>
     </message>
     <message>
         <source>Silvery-white (beta, β) or gray (alpha, α)</source>
-        <translation>Серебристо-белый (бета, β) или серый (альфа α)</translation>
+        <translation>Silvery-white (beta, β) or gray (alpha, α)</translation>
     </message>
     <message>
         <source>Steel gray</source>
-        <translation>Серо-стальной</translation>
+        <translation>Steel gray</translation>
     </message>
     <message>
         <source>Pale yellow-green gas</source>
-        <translation>Бледно жёлто-зелёный газ</translation>
+        <translation>Pale yellow-green gas</translation>
     </message>
     <message>
         <source>Lawrencium</source>
-        <translation>Лоуренсий</translation>
+        <translation>Lawrencium</translation>
     </message>
     <message>
         <source>Gadolinium</source>
-        <translation>Гадолиний</translation>
+        <translation>Gadolinium</translation>
     </message>
     <message>
         <source>Antimony</source>
-        <translation>Сурьма</translation>
+        <translation>Antimony</translation>
     </message>
     <message>
         <source>Grayish white</source>
-        <translation>Серовато-белый</translation>
+        <translation>Grayish white</translation>
     </message>
     <message>
         <source>Lustrous white metal</source>
-        <translation>Блестящий белый металл</translation>
+        <translation>Lustrous white metal</translation>
     </message>
     <message>
         <source>Liquid</source>
-        <translation>Жидкость</translation>
+        <translation>Liquid</translation>
     </message>
     <message>
         <source>Ancient Egypt</source>
-        <translation>Древний Египет</translation>
+        <translation>Ancient Egypt</translation>
     </message>
     <message>
         <source>Silvery white metallic</source>
-        <translation>Серебристо-белый металлический</translation>
+        <translation>Silvery white metallic</translation>
     </message>
     <message>
         <source>Mercury</source>
-        <translation>Ртуть</translation>
+        <translation>Mercury</translation>
     </message>
     <message>
         <source>Ancient china</source>
-        <translation>Древний Китай</translation>
+        <translation>Ancient china</translation>
     </message>
     <message>
         <source>Colorless gas, occasionally glows green or red in discharge tubes</source>
-        <translation>Бесцветный газ. Периодически светится зеленым или красным в разрядной трубке.</translation>
+        <translation>Colorless gas, occasionally glows green or red in discharge tubes</translation>
     </message>
     <message>
         <source>Silver-gray</source>
-        <translation>Серебристо-серый</translation>
+        <translation>Silver-gray</translation>
     </message>
     <message>
         <source>Thomas Thomson (chemist)</source>
-        <translation>Thomas Thomson (химик)</translation>
+        <translation>Thomas Thomson (chemist)</translation>
     </message>
     <message>
         <source>Friedrich Ernst Dorn</source>
@@ -1156,7 +1155,7 @@
     </message>
     <message>
         <source>Polonium</source>
-        <translation>Полоний</translation>
+        <translation>Polonium</translation>
     </message>
     <message>
         <source>Johan August Arfwedson</source>
@@ -1164,11 +1163,11 @@
     </message>
     <message>
         <source>Middle East</source>
-        <translation>Ближний восток</translation>
+        <translation>Middle East</translation>
     </message>
     <message>
         <source>Alkali metal</source>
-        <translation>Щелочной металл</translation>
+        <translation>Alkali metal</translation>
     </message>
     <message>
         <source>Anders Gustaf Ekeberg</source>
@@ -1176,7 +1175,7 @@
     </message>
     <message>
         <source>Colorless gas, liquid or solid</source>
-        <translation>Бесцветный газ, жидкость или твёрдое состояние</translation>
+        <translation>Colorless gas, liquid or solid</translation>
     </message>
     <message>
         <source>Walter Noddack</source>
@@ -1184,7 +1183,7 @@
     </message>
     <message>
         <source>Dysprosium</source>
-        <translation>Диспрозий</translation>
+        <translation>Dysprosium</translation>
     </message>
     <message>
         <source>Johan Gadolin</source>
@@ -1192,19 +1191,19 @@
     </message>
     <message>
         <source>Chromium</source>
-        <translation>Хром</translation>
+        <translation>Chromium</translation>
     </message>
     <message>
         <source>Zinc</source>
-        <translation>Цинк</translation>
+        <translation>Zinc</translation>
     </message>
     <message>
         <source>Ruthenium</source>
-        <translation>Рутений</translation>
+        <translation>Ruthenium</translation>
     </message>
     <message>
         <source>William Cruickshank (chemist)</source>
-        <translation>William Cruickshank (химик)</translation>
+        <translation>William Cruickshank (chemist)</translation>
     </message>
     <message>
         <source>Charles Hatchett</source>
@@ -1212,92 +1211,92 @@
     </message>
     <message>
         <source>Thorium</source>
-        <translation>Торий</translation>
+        <translation>Thorium</translation>
     </message>
     <message>
         <source>Silvery</source>
-        <translation>Серебристый</translation>
+        <translation>Silvery</translation>
     </message>
     <message>
         <source>Lutetium</source>
-        <translation>Лютеций</translation>
+        <translation>Lutetium</translation>
     </message>
     <message>
         <source>Unknown, probably post-transition metal</source>
-        <translation>Неизвестно, предположительно постпереходный металл</translation>
+        <translation>Unknown, probably post-transition metal</translation>
     </message>
     <message>
         <source>Copernicium</source>
-        <translation>Коперниций</translation>
+        <translation>Copernicium</translation>
     </message>
     <message>
         <source>undefined</source>
-        <translation>пусто</translation>
+        <translation>undefined</translation>
     </message>
 </context>
 <context>
     <name>FileReader</name>
     <message>
         <source>K</source>
-        <translation type="unfinished"></translation>
+        <translation>K</translation>
     </message>
     <message>
         <source>g/mol</source>
-        <translation type="unfinished"></translation>
+        <translation>g/mol</translation>
     </message>
     <message>
         <source>g/l</source>
         <extracomment>Unit, grams per liter</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>g/l</translation>
     </message>
     <message>
         <source>g/cm³</source>
         <extracomment>Unit, grams per cubic centimeter</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>g/cm³</translation>
     </message>
     <message>
         <source>J/(mol·K)</source>
-        <translation type="unfinished"></translation>
+        <translation>J/(mol·K)</translation>
     </message>
     <message>
         <source>kJ/mol</source>
         <extracomment>Unit, Kilojoules per mole</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>kJ/mol</translation>
     </message>
 </context>
 <context>
     <name>Table</name>
     <message>
         <source>Groups</source>
-        <translation>Группы</translation>
+        <translation>Groups</translation>
     </message>
     <message>
         <source>CPK-color</source>
-        <translation>Цвета CPK</translation>
+        <translation>CPK-color</translation>
     </message>
     <message>
         <source>Electronegativity</source>
-        <translation>Электроотрицательность</translation>
+        <translation>Electronegativity</translation>
     </message>
     <message>
         <source>Electron affinity</source>
-        <translation>Сродство к электрону</translation>
+        <translation>Electron affinity</translation>
     </message>
     <message>
         <source>Block</source>
-        <translation>Блоки</translation>
+        <translation>Block</translation>
     </message>
     <message>
         <source>About</source>
-        <translation>О программе</translation>
+        <translation>About</translation>
     </message>
     <message>
         <source>Color scheme</source>
-        <translation>Цветовая схема</translation>
+        <translation>Color scheme</translation>
     </message>
     <message>
         <source>Language</source>
-        <translation type="unfinished"></translation>
+        <translation>Language</translation>
     </message>
 </context>
 </TS>

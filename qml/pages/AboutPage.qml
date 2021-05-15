@@ -28,12 +28,12 @@ Page {
                 rightMargin: Theme.PaddingLarge
             } 
             PageHeader {
-                title: qsTr("About Jaksari")
+                title: trans.emptyString + qsTr("About Jaksari")+trans.emptyString
             }
             Label {
                 width: parent.width
                 font.pixelSize: Theme.fontSizeSmall
-                text: qsTr('Version')+': '+ Qt.application.version
+                text: trans.emptyString + qsTr('Version')+': '+ Qt.application.version
             }
 
             Label {
@@ -44,11 +44,11 @@ Page {
 
             Label {
                 font.pixelSize: Theme.fontSizeSmall
-                text: qsTr('License: GPLv3 or later')
+                text: trans.emptyString + qsTr('License: GPLv3 or later')
             } 
             Label {
                 font.pixelSize: Theme.fontSizeSmall
-                text: qsTr('Atom data:')+  ' <html><style type="text/css"></style><a href="https://www.wikipedia.org/">www.wikipedia.org/</a></html> ' + qsTr('and') +' '
+                text: trans.emptyString + qsTr('Atom data:')+  ' <html><style type="text/css"></style><a href="https://www.wikipedia.org/">www.wikipedia.org/</a></html> ' + trans.emptyString + qsTr('and') +' '
                 onLinkActivated: Qt.openUrlExternally('https://www.wikipedia.org/')
             } 
             Label {

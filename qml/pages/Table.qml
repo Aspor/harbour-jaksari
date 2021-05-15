@@ -201,7 +201,7 @@ Page {
         leftMargin: Theme.paddingLarge
         property int colorScheme: 0
         property int rectangleSize: Screen.height/19
-        property var colorSchemes: [qsTr("Groups"),qsTr("CPK-color"),qsTr("Electronegativity"),qsTr("Electron affinity"),qsTr("Block")];
+        property var colorSchemes: [trans.emptyString + qsTr("Groups"),trans.emptyString + qsTr("CPK-color"),trans.emptyString + qsTr("Electronegativity"),trans.emptyString + qsTr("Electron affinity"),trans.emptyString + qsTr("Block")];
         contentWidth: 18 * rectangleSize+Theme.paddingMedium
         contentHeight: 10* rectangleSize+Theme.paddingMedium
         VerticalScrollDecorator {}
@@ -221,15 +221,15 @@ Page {
         }
         PullDownMenu {
             MenuItem {
-                text: qsTr("About")
+                text: trans.emptyString + qsTr("About")
                 onClicked: pageStack.push(aboutPage)
             }
             MenuItem {
-                text: qsTr("Language")
+                text: trans.emptyString + qsTr("Language")
                 onClicked: pageStack.push(languagePage)
             }
             MenuItem {
-                text: qsTr("Color scheme")
+                text: trans.emptyString + qsTr("Color scheme")
                 onClicked: {
                     if(table.colorScheme == 4) {
                         table.colorScheme=0
@@ -293,7 +293,7 @@ Page {
                             id: colorSchemeLabel
                             //color: "black"
                             color: Theme.highlightColor
-                            text: qsTr("Color scheme")+":  "+ table.colorSchemes[table.colorScheme]
+                            text: trans.emptyString + qsTr("Color scheme")+":  "+ table.colorSchemes[table.colorScheme]
 
                         }
                     }

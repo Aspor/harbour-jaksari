@@ -31,7 +31,7 @@ class FileReader: public QObject
     Q_PROPERTY(int elementNum READ elementNum WRITE setElementNum)
     Q_PROPERTY(QStringList keys READ getKeys )
     Q_PROPERTY(QVariantList values READ getValues )
-    Q_PROPERTY(QVariantList elements READ getElementsData )
+    Q_PROPERTY(QVariantList elements READ getElementsData NOTIFY elementsLoaded )
 
 public:
     FileReader();
@@ -41,7 +41,8 @@ public:
     QStringList getKeys();
     QVariantList getValues();
     QVariantList getElementsData();
-
+signals:
+    void elementsLoaded();
 
 private:
     QJsonArray read(QString name);

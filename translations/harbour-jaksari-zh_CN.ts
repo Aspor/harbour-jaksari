@@ -1238,12 +1238,10 @@
     <name>FileReader</name>
     <message>
         <source>K</source>
-        <extracomment>Unit, Kelvins</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>g/mol</source>
-        <extracomment>Unit, grams per mole</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1258,7 +1256,6 @@
     </message>
     <message>
         <source>J/(mol·K)</source>
-        <extracomment>Unit, Joules per ( mole * Kelvin )</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1296,6 +1293,10 @@
     <message>
         <source>Electron affinity</source>
         <translation>电子亲和能</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

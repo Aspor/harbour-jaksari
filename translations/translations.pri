@@ -4,7 +4,9 @@ TRANSLATIONS = translations/harbour-jaksari-fi.ts \
                translations/harbour-jaksari-sv.ts \
                translations/harbour-jaksari-zh_CN.ts\
                translations/harbour-jaksari-ru.ts \
-               translations/harbour-jaksari-de.ts
+               translations/harbour-jaksari-de.ts \
+               translations/harbour-jaksari-en.ts
+
 
 updateqm.input = TRANSLATIONS
 updateqm.output = translations/${QMAKE_FILE_BASE}.qm
@@ -18,5 +20,6 @@ PRE_TARGETDEPS += compiler_updateqm_make_all
 
 localization.files = $$files($$top_builddir/translations/*.qm)
 localization.path = /usr/share/$${TARGET}/translations
+DEFINES+=LOCALIZATIONPATH=\\\"$${localization.path}\\\"
 
 INSTALLS += localization
