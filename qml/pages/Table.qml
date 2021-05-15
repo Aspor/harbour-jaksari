@@ -83,7 +83,10 @@ Page {
                     colorArr.push(groupColors[19])
             }
             for( i=0;i<118;i++){
-                colorArr[i+118]= "#"+String(elementData[i]['color'])
+                colorArr[i+118]= "#"+String(elementData[i]['cpk-hex'])
+                if(String(elementData[i]['cpk-hex'])=="undefined"){
+                            colorArr[i+118]= "#666666"
+                        }
             }
             for( i=0;i<118;i++){
                 var red= 1.0/(4.0-0.75) * (elementData[i]['electronegativity_pauling']-0.75)

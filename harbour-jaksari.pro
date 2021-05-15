@@ -55,7 +55,7 @@ CONFIG += sailfishapp_i18n
 include(translations/translations.pri)
 
 
-RESOURCES = qml/pages/data.qrc
+RESOURCES = data.qrc
 
 DEFINES+=APP_VERSION=\\\"$$VERSION\\\"
 

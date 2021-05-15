@@ -16,6 +16,7 @@
 #include "filereader.h"
 #include <QFile>
 #include <QTextStream>
+#include <QList>
 
 FileReader::FileReader() {
     m_elementData = read(":/data/periodicTable");
@@ -40,10 +41,15 @@ void FileReader::setElementNum(int num) {
     m_keyList.clear();
     m_values.clear();
 
-    QStringList keys = m_element.keys();
-    for (int i=0;i<18;i++){
 
-        QString key = keys[detailIndexes[i]];
+
+    QStringList keys = m_element.keys();
+//    const int detailIndexes[18] ={13,22,15,16,3,0,6,14,17,1,5,2,11,12,7,9,8,10};
+    QList<QString> propertyOrder     = {GENERALPROPERTIES, PHYSICALPROPERTIES, ELECTICPROPERTIES, WIKIPEDIALINK};
+
+    for (int i=0;i<18;i++){
+        int index = keys.indexOf(propertyOrder[i]);
+        QString key = keys[index];
         QVariant value = m_element.value(key);
         QString s;
         double v;

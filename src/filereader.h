@@ -18,6 +18,10 @@
 #include <QtCore>
 #include <QJsonObject>
 
+#define GENERALPROPERTIES "name","symbol","number","period","category","appearance","discovered_by","named_by"
+#define PHYSICALPROPERTIES "phase","atomic_mass","density","boil","melt","molar_heat"
+#define ELECTICPROPERTIES "electron_affinity","electronegativity_pauling","electron_configuration","ionization_energies"
+#define WIKIPEDIALINK "source"
 
 class FileReader: public QObject
 {
@@ -51,7 +55,10 @@ private:
     QLocale locale;
 
     //Qt returns values from JSON sorted lexographically so order needs to be changed
-    const int detailIndexes[18] ={13,22,15,16,3,0,6,14,17,1,5,2,11,12,7,9,8,10};
+//    const int detailIndexes[18] ={13,22,15,16,3,0,6,14,17,1,5,2,11,12,7,9,8,10};
+//    const QString propertyOrder[19] = {GENERALPROPERTIES, PHYSICALPROPERTIES, ELECTICPROPERTIES, WIKIPEDIALINK};
+
+
 };
 
 #endif // FILEREADER_H
