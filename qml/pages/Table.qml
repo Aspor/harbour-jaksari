@@ -225,6 +225,10 @@ Page {
                 onClicked: pageStack.push(aboutPage)
             }
             MenuItem {
+                text: qsTr("Language")
+                onClicked: pageStack.push(languagePage)
+            }
+            MenuItem {
                 text: qsTr("Color scheme")
                 onClicked: {
                     if(table.colorScheme == 4) {

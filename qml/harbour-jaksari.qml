@@ -50,5 +50,7 @@ ApplicationWindow
     AboutPage {
         id: aboutPage
     }
-
+    LanguageDialog {
+        id: languagePage
+    }
 }

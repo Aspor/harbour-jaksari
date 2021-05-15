@@ -15,15 +15,19 @@
 
 #include <QtQuick>
 #include "filereader.h"
+#include "translator.h"
 #include <sailfishapp.h>
 
 int main(int argc, char *argv[])
 {
-
+    Translator trans;
     qmlRegisterType<FileReader>("utils", 1, 0, "FileReader");
     QGuiApplication* app = SailfishApp::application(argc, argv);
     app->setApplicationVersion(APP_VERSION);
     QQuickView* view = SailfishApp::createView();
+
+    view->rootContext()->setContextProperty("trans", (QObject*)&trans);
+
     view->setSource(SailfishApp::pathTo("qml/harbour-jaksari.qml"));
     view->show();
     return app->exec();

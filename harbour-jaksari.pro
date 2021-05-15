@@ -17,10 +17,14 @@ TARGET = harbour-jaksari
 CONFIG += sailfishapp
 
 HEADERS += \
-    src/filereader.h
+    src/filereader.h\
+    src/translator.h
+
 SOURCES += \
     src/filereader.cpp \
-    src/jaksari.cpp
+    src/jaksari.cpp \
+    src/translator.cpp
+
 
 DISTFILES += \
     qml/cover/CoverPage.qml \
