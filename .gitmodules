@@ -1,0 +1,3 @@
+[submodule "Periodic-Table-JSON"]
+	path = Periodic-Table-JSON
+	url = git@github.com:Bowserinator/Periodic-Table-JSON.git
