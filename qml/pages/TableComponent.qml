@@ -20,7 +20,7 @@ Rectangle {
             property var sym: {
                 var s='';
                // if(Qt.locale().name == 'zh_CN' || trans.language=="CN"){
-                if(trans.language=="CN"){
+                if(trans.language=="zh"){
 
                      s= qsTranslate('ElementDetails',(dataFile.elements[num]['name']))
                 }

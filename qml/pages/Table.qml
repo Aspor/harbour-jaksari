@@ -224,10 +224,7 @@ Page {
                 text: trans.emptyString + qsTr("About")
                 onClicked: pageStack.push(aboutPage)
             }
-            MenuItem {
-                text: trans.emptyString + qsTr("Language")
-                onClicked: pageStack.push(languagePage)
-            }
+
             MenuItem {
                 text: trans.emptyString + qsTr("Color scheme")
                 onClicked: {
@@ -238,6 +235,10 @@ Page {
                         table.colorScheme++
                     }
                 }
+            }
+            MenuItem {
+                text: trans.emptyString + qsTr("Choose language")
+                onClicked: pageStack.push(languageDialog)
             }
         }
         Column {

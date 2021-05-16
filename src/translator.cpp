@@ -4,8 +4,8 @@ Translator::Translator()
 {
     trans = new QTranslator(this);
     m_language="";
-    if( QLocale().name().toStdString() == "zh_CN")
-        m_language="CN";
+    if( QLocale().name().split("_").takeLast().left(2) == "zh")
+        m_language="zh";
 }
 
 void Translator::selectLanguage(int index) {
@@ -14,8 +14,7 @@ void Translator::selectLanguage(int index) {
      qApp->removeTranslator(trans);
 
     auto succ = trans->load(translations[index], LOCALIZATIONPATH);//:/translatinos/");// "/opt/sdk/harbour-jaksari/usr/share/harbour-jaksari/translations");
-    qDebug()<<succ<<"Trans"<<trans->isEmpty()<< QCoreApplication::applicationDirPath();
-    m_language=translations[index].right(2);
+    m_language=translations[index].split("-").takeLast().left(2);
     qApp->installTranslator(trans);
     emit languageChanged();
   }

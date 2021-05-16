@@ -31,6 +31,7 @@ DISTFILES += \
     qml/harbour-jaksari.qml \
     qml/pages/ElementDataSection.qml \
     qml/pages/TableComponent.qml \
+    qml/pages/LanguageDialog.qml \
     rpm/harbour-jaksari.changes \
     rpm/harbour-jaksari.changes.run.in \
     rpm/harbour-jaksari.spec \
@@ -49,6 +50,7 @@ CONFIG += sailfishapp_i18n
 lupdate_only{
 SOURCES += \
     qml/cover/CoverPage.qml \
+    qml/pages/LanguageDialog.qml \
     pages/data.js \
     qml/pages/*.qml
     HEADERS += src/transalatble.h
@@ -60,6 +62,6 @@ include(translations/translations.pri)
 
 
 RESOURCES = data.qrc
-
+`
 DEFINES+=APP_VERSION=\\\"$$VERSION\\\"
 
