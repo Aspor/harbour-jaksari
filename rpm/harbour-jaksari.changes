@@ -13,6 +13,12 @@
 # - Summary of changes
 
 
+* Sun May 16 2021 Timo Mäenpää 1.1.0
+- Dynamic translation
+- Updated data source to new version
+- 64-bit build
+
+
 * Sun Dec 01 2019 Timo Mäenpää 1.0.3-2
 - Pinch to zoom in table view
 - Scroll in table view

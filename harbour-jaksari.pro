@@ -50,7 +50,6 @@ CONFIG += sailfishapp_i18n
 lupdate_only{
 SOURCES += \
     qml/cover/CoverPage.qml \
-    qml/pages/LanguageDialog.qml \
     pages/data.js \
     qml/pages/*.qml
     HEADERS += src/transalatble.h

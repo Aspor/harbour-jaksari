@@ -1239,10 +1239,12 @@
     <name>FileReader</name>
     <message>
         <source>K</source>
+        <extracomment>Unit, Kelvins</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>g/mol</source>
+        <extracomment>Unit, grams per mole</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1257,11 +1259,39 @@
     </message>
     <message>
         <source>J/(mol·K)</source>
+        <extracomment>Unit, Joules per ( mole * Kelvin )</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>kJ/mol</source>
         <extracomment>Unit, Kilojoules per mole</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>LanguageDialog</name>
+    <message>
+        <source>English</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Finnish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Swedish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Chinese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Russian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>German</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1297,6 +1327,10 @@
     </message>
     <message>
         <source>Language</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose language</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
