@@ -139,11 +139,11 @@
     </message>
     <message>
         <source>Karl Ernst Claus</source>
-        <translation type="unfinished"></translation>
+        <translation>Karl Ernst Claus</translation>
     </message>
     <message>
         <source>Per Teodor Cleve</source>
-        <translation type="unfinished"></translation>
+        <translation>Per Teodor Cleve</translation>
     </message>
     <message>
         <source>Iridium</source>
@@ -155,15 +155,15 @@
     </message>
     <message>
         <source>Henry Cavendish</source>
-        <translation type="unfinished"></translation>
+        <translation>Henry Cavendish</translation>
     </message>
     <message>
         <source>Smithson Tennant</source>
-        <translation type="unfinished"></translation>
+        <translation>Smithson Tennant</translation>
     </message>
     <message>
         <source>Jöns Jacob Berzelius</source>
-        <translation type="unfinished"></translation>
+        <translation>Jöns Jacob Berzelius</translation>
     </message>
     <message>
         <source>Silvery lustrous gray</source>
@@ -187,11 +187,11 @@
     </message>
     <message>
         <source>Marguerite Perey</source>
-        <translation type="unfinished"></translation>
+        <translation>Marguerite Perey</translation>
     </message>
     <message>
         <source>Georges Urbain</source>
-        <translation type="unfinished"></translation>
+        <translation>Georges Urbain</translation>
     </message>
     <message>
         <source>Niobium</source>
@@ -203,7 +203,7 @@
     </message>
     <message>
         <source>Antoine Jérôme Balard</source>
-        <translation type="unfinished"></translation>
+        <translation>Antoine Jérôme Balard</translation>
     </message>
     <message>
         <source>Crystalline, reflective with bluish-tinged faces</source>
@@ -211,11 +211,11 @@
     </message>
     <message>
         <source>Axel Fredrik Cronstedt</source>
-        <translation type="unfinished"></translation>
+        <translation>Axel Fredrik Cronstedt</translation>
     </message>
     <message>
         <source>Carl Gustaf Mosander</source>
-        <translation type="unfinished"></translation>
+        <translation>Carl Gustaf Mosander</translation>
     </message>
     <message>
         <source>Erbium</source>
@@ -247,7 +247,7 @@
     </message>
     <message>
         <source>Jöns Jakob Berzelius</source>
-        <translation type="unfinished"></translation>
+        <translation>Jöns Jakob Berzelius</translation>
     </message>
     <message>
         <source>Palladium</source>
@@ -259,11 +259,11 @@
     </message>
     <message>
         <source>Dirk Coster</source>
-        <translation type="unfinished"></translation>
+        <translation>Dirk Coster</translation>
     </message>
     <message>
         <source>Eugène-Anatole Demarçay</source>
-        <translation type="unfinished"></translation>
+        <translation>Eugène-Anatole Demarçay</translation>
     </message>
     <message>
         <source>Tellurium</source>
@@ -271,7 +271,7 @@
     </message>
     <message>
         <source>Lars Fredrik Nilson</source>
-        <translation type="unfinished"></translation>
+        <translation>Lars Fredrik Nilson</translation>
     </message>
     <message>
         <source>Hafnium</source>
@@ -291,7 +291,7 @@
     </message>
     <message>
         <source>Antonio de Ulloa</source>
-        <translation type="unfinished"></translation>
+        <translation>Antonio de Ulloa</translation>
     </message>
     <message>
         <source>Colorless gas exhibiting an orange-red glow when placed in a high voltage electric field</source>
@@ -315,7 +315,7 @@
     </message>
     <message>
         <source>Otto Hahn</source>
-        <translation type="unfinished"></translation>
+        <translation>Otto Hahn</translation>
     </message>
     <message>
         <source>Silvery gray metallic</source>
@@ -367,7 +367,7 @@
     </message>
     <message>
         <source>Lawrence Berkeley National Laboratory</source>
-        <translation type="unfinished"></translation>
+        <translation>Lawrence Berkeley National Laboratory</translation>
     </message>
     <message>
         <source>Einsteinium</source>
@@ -375,7 +375,7 @@
     </message>
     <message>
         <source>Ferdinand Reich</source>
-        <translation type="unfinished"></translation>
+        <translation>Ferdinand Reich</translation>
     </message>
     <message>
         <source>Molybdenum</source>
@@ -391,11 +391,11 @@
     </message>
     <message>
         <source>Claude François Geoffroy</source>
-        <translation type="unfinished"></translation>
+        <translation>Claude François Geoffroy</translation>
     </message>
     <message>
         <source>Bernard Courtois</source>
-        <translation type="unfinished"></translation>
+        <translation>Bernard Courtois</translation>
     </message>
     <message>
         <source>Silver</source>
@@ -431,7 +431,7 @@
     </message>
     <message>
         <source>Robert Bunsen</source>
-        <translation type="unfinished"></translation>
+        <translation>Robert Bunsen</translation>
     </message>
     <message>
         <source>Joint Institute for Nuclear Research</source>
@@ -511,7 +511,7 @@
     </message>
     <message>
         <source>Antoine Lavoisier</source>
-        <translation type="unfinished"></translation>
+        <translation>Antoine Lavoisier</translation>
     </message>
     <message>
         <source>Dubnium</source>
@@ -539,7 +539,7 @@
     </message>
     <message>
         <source>Humphry Davy</source>
-        <translation type="unfinished"></translation>
+        <translation>Humphry Davy</translation>
     </message>
     <message>
         <source>Polyatomic nonmetal</source>
@@ -547,7 +547,7 @@
     </message>
     <message>
         <source>Friedrich Oskar Giesel</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Hydrogen</source>
@@ -559,7 +559,7 @@
     </message>
     <message>
         <source>Louis Nicolas Vauquelin</source>
-        <translation type="unfinished"></translation>
+        <translation>Louis Nicolas Vauquelin</translation>
     </message>
     <message>
         <source>Black-brown</source>
@@ -583,7 +583,7 @@
     </message>
     <message>
         <source>Clemens Winkler</source>
-        <translation type="unfinished"></translation>
+        <translation>Clemens Winkler</translation>
     </message>
     <message>
         <source>Blue-silver-grey metal</source>
@@ -599,11 +599,11 @@
     </message>
     <message>
         <source>Morris Travers</source>
-        <translation type="unfinished"></translation>
+        <translation>Morris Travers</translation>
     </message>
     <message>
         <source>Emilio Segrè</source>
-        <translation type="unfinished"></translation>
+        <translationEmilio Segrè></translation>
     </message>
     <message>
         <source>Bohrium</source>
@@ -619,7 +619,7 @@
     </message>
     <message>
         <source>Georg Brandt</source>
-        <translation type="unfinished"></translation>
+        <translation>Georg Brandt</translation>
     </message>
     <message>
         <source>Zirconium</source>
@@ -627,7 +627,7 @@
     </message>
     <message>
         <source>Edwin McMillan</source>
-        <translation type="unfinished"></translation>
+        <translation>Edwin McMillan</translation>
     </message>
     <message>
         <source>Potassium</source>
@@ -635,11 +635,11 @@
     </message>
     <message>
         <source>William Hyde Wollaston</source>
-        <translation type="unfinished"></translation>
+        <translation>William Hyde Wollaston</translation>
     </message>
     <message>
         <source>Marc Delafontaine</source>
-        <translation type="unfinished"></translation>
+        <translation>Marc Delafontaine</translation>
     </message>
     <message>
         <source>Silvery metallic, glows purple in the dark</source>
@@ -659,7 +659,7 @@
     </message>
     <message>
         <source>Andrés Manuel del Río</source>
-        <translation type="unfinished"></translation>
+        <translation>Andrés Manuel del Río</translation>
     </message>
     <message>
         <source>Grey white</source>
@@ -667,7 +667,7 @@
     </message>
     <message>
         <source>Joseph Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Joseph Black</translation>
     </message>
     <message>
         <source>Rhenium</source>
@@ -679,7 +679,7 @@
     </message>
     <message>
         <source>Lord Rayleigh</source>
-        <translation type="unfinished"></translation>
+        <translation>Lord Rayleigh</translation>
     </message>
     <message>
         <source>Nickel</source>
@@ -699,15 +699,15 @@
     </message>
     <message>
         <source>Torbern Olof Bergman</source>
-        <translation type="unfinished"></translation>
+        <translation>Torbern Olof Bergman</translation>
     </message>
     <message>
         <source>Jean Charles Galissard de Marignac</source>
-        <translation type="unfinished"></translation>
+        <translation>Jean Charles Galissard de Marignac</translation>
     </message>
     <message>
         <source>Pierre Janssen</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Unknown, probably metallic</source>
@@ -739,15 +739,15 @@
     </message>
     <message>
         <source>RIKEN</source>
-        <translation type="unfinished"></translation>
+        <translation>RIKEN</translation>
     </message>
     <message>
         <source>André-Marie Ampère</source>
-        <translation type="unfinished"></translation>
+        <translation>André-Marie Ampère</translation>
     </message>
     <message>
         <source>Pierre Curie</source>
-        <translation type="unfinished"></translation>
+        <translation>Pierre Curie</translation>
     </message>
     <message>
         <source>Metallic</source>
@@ -755,7 +755,7 @@
     </message>
     <message>
         <source>Gesellschaft für Schwerionenforschung</source>
-        <translation type="unfinished"></translation>
+        <translation>Gesellschaft für Schwerionenforschung</translation>
     </message>
     <message>
         <source>India</source>
@@ -767,7 +767,7 @@
     </message>
     <message>
         <source>Karl Samuel Leberecht Hermann</source>
-        <translation type="unfinished"></translation>
+        <translation>Karl Samuel Leberecht Hermann</translation>
     </message>
     <message>
         <source>Gallium</source>
@@ -835,7 +835,7 @@
     </message>
     <message>
         <source>William Ramsay</source>
-        <translation type="unfinished"></translation>
+        <translation>William Ramsay</translation>
     </message>
     <message>
         <source>Silvery gold</source>
@@ -843,11 +843,11 @@
     </message>
     <message>
         <source>William Gregor</source>
-        <translation type="unfinished"></translation>
+        <translation>William Gregor</translation>
     </message>
     <message>
         <source>William Crookes</source>
-        <translation type="unfinished"></translation>
+        <translation>William Crookes</translation>
     </message>
     <message>
         <source>Silicon</source>
@@ -859,7 +859,7 @@
     </message>
     <message>
         <source>Masataka Ogawa</source>
-        <translation type="unfinished"></translation>
+        <translation>Masataka Ogawa</translation>
     </message>
     <message>
         <source>Thallium</source>
@@ -891,7 +891,7 @@
     </message>
     <message>
         <source>Carl Wilhelm Scheele</source>
-        <translation type="unfinished"></translation>
+        <translation>Carl Wilhelm Scheele</translation>
     </message>
     <message>
         <source>Xenon</source>
@@ -911,15 +911,15 @@
     </message>
     <message>
         <source>Dale R. Corson</source>
-        <translation type="unfinished"></translation>
+        <translation>Dale R. Corson</translation>
     </message>
     <message>
         <source>Glenn T. Seaborg</source>
-        <translation type="unfinished"></translation>
+        <translation>Glenn T. Seaborg</translation>
     </message>
     <message>
         <source>Joseph Louis Gay-Lussac</source>
-        <translation type="unfinished"></translation>
+        <translation>Joseph Louis Gay-Lussac</translation>
     </message>
     <message>
         <source>Shiny gray metal</source>
@@ -927,7 +927,7 @@
     </message>
     <message>
         <source>Jean-Antoine Chaptal</source>
-        <translation type="unfinished"></translation>
+        <translation>Jean-Antoine Chaptal</translation>
     </message>
     <message>
         <source>Unknown, before 2000 BCE</source>
@@ -951,7 +951,7 @@
     </message>
     <message>
         <source>Carl Auer von Welsbach</source>
-        <translation type="unfinished"></translation>
+        <translation>Carl Auer von Welsbach</translation>
     </message>
     <message>
         <source>Chlorine</source>
@@ -959,7 +959,7 @@
     </message>
     <message>
         <source>Martin Heinrich Klaproth</source>
-        <translation type="unfinished"></translation>
+        <translation>Martin Heinrich Klaproth</translation>
     </message>
     <message>
         <source>Yttrium</source>
@@ -1035,7 +1035,7 @@
     </message>
     <message>
         <source>Franz-Joseph Müller von Reichenstein</source>
-        <translation type="unfinished"></translation>
+        <translation>Franz-Joseph Müller von Reichenstein</translation>
     </message>
     <message>
         <source>White-gray metallic</source>
@@ -1059,7 +1059,7 @@
     </message>
     <message>
         <source>Daniel Rutherford</source>
-        <translation type="unfinished"></translation>
+        <translation>Daniel Rutherford</translation>
     </message>
     <message>
         <source>Cobalt</source>
@@ -1071,7 +1071,7 @@
     </message>
     <message>
         <source>Lecoq de Boisbaudran</source>
-        <translation type="unfinished"></translation>
+        <translation>Lecoq de Boisbaudran</translation>
     </message>
     <message>
         <source>Moscovium</source>
@@ -1147,11 +1147,11 @@
     </message>
     <message>
         <source>Friedrich Ernst Dorn</source>
-        <translation type="unfinished"></translation>
+        <translation>Friedrich Ernst Dorn</translation>
     </message>
     <message>
         <source>Hennig Brand</source>
-        <translation type="unfinished"></translation>
+        <translation>Hennig Brand</translation>
     </message>
     <message>
         <source>Polonium</source>
@@ -1159,7 +1159,7 @@
     </message>
     <message>
         <source>Johan August Arfwedson</source>
-        <translation type="unfinished"></translation>
+        <translation>Johan August Arfwedson</translation>
     </message>
     <message>
         <source>Middle East</source>
@@ -1171,7 +1171,7 @@
     </message>
     <message>
         <source>Anders Gustaf Ekeberg</source>
-        <translation type="unfinished"></translation>
+        <translation>Anders Gustaf Ekeberg</translation>
     </message>
     <message>
         <source>Colorless gas, liquid or solid</source>
@@ -1179,7 +1179,7 @@
     </message>
     <message>
         <source>Walter Noddack</source>
-        <translation type="unfinished"></translation>
+        <translation>Walter Noddack</translation>
     </message>
     <message>
         <source>Dysprosium</source>
@@ -1187,7 +1187,7 @@
     </message>
     <message>
         <source>Johan Gadolin</source>
-        <translation type="unfinished"></translation>
+        <translation>Johan Gadolin</translation>
     </message>
     <message>
         <source>Chromium</source>
@@ -1207,7 +1207,7 @@
     </message>
     <message>
         <source>Charles Hatchett</source>
-        <translation type="unfinished"></translation>
+        <translation>Charles Hatchett</translation>
     </message>
     <message>
         <source>Thorium</source>
@@ -1239,59 +1239,59 @@
     <message>
         <source>K</source>
         <extracomment>Unit, Kelvins</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>K</translation>
     </message>
     <message>
         <source>g/mol</source>
         <extracomment>Unit, grams per mole</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>g/mol</translation>
     </message>
     <message>
         <source>g/l</source>
         <extracomment>Unit, grams per liter</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>g/l</translation>
     </message>
     <message>
         <source>g/cm³</source>
         <extracomment>Unit, grams per cubic centimeter</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>g/cm³</translation>
     </message>
     <message>
         <source>J/(mol·K)</source>
         <extracomment>Unit, Joules per ( mole * Kelvin )</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>J/(mol·K)</translation>
     </message>
     <message>
         <source>kJ/mol</source>
         <extracomment>Unit, Kilojoules per mole</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>kJ/mol</translation>
     </message>
 </context>
 <context>
     <name>LanguageDialog</name>
     <message>
         <source>English</source>
-        <translation type="unfinished"></translation>
+        <translation>英语</translation>
     </message>
     <message>
         <source>Finnish</source>
-        <translation type="unfinished"></translation>
+        <translation>芬兰语</translation>
     </message>
     <message>
         <source>Swedish</source>
-        <translation type="unfinished"></translation>
+        <translation>瑞典语</translation>
     </message>
     <message>
         <source>Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>汉语</translation>
     </message>
     <message>
         <source>Russian</source>
-        <translation type="unfinished"></translation>
+        <translation>俄语</translation>
     </message>
     <message>
         <source>German</source>
-        <translation type="unfinished"></translation>
+        <translation>德语</translation>
     </message>
 </context>
 <context>
@@ -1326,11 +1326,11 @@
     </message>
     <message>
         <source>Language</source>
-        <translation type="unfinished"></translation>
+        <translation>语言</translation>
     </message>
     <message>
         <source>Choose language</source>
-        <translation type="unfinished"></translation>
+        <translation>选择语言</translation>
     </message>
 </context>
 </TS>
