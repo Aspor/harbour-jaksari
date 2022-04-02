@@ -603,7 +603,7 @@
     </message>
     <message>
         <source>Emilio Segrè</source>
-        <translationEmilio Segrè></translation>
+        <translation>Emilio Segrè</translation>
     </message>
     <message>
         <source>Bohrium</source>

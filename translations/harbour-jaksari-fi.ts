@@ -1119,7 +1119,7 @@
     </message>
     <message>
         <source>Ancient Egypt</source>
-        <translation>Muinainen Egpyti</translation>
+        <translation>Muinainen Egypti</translation>
     </message>
     <message>
         <source>Silvery white metallic</source>

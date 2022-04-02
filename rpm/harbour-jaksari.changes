@@ -13,7 +13,13 @@
 # - Summary of changes
 
 
-* Sun May 16 2021 Timo Mäenpää 1.1.0
+
+* Sat Apr 02 2022 Timo Mäenpää 1.2.1
+- Update Chinese translation
+- Sailjail premission
+
+
+* Sun May 16 2021 Timo Mäenpää 1.2.0
 - Dynamic translation
 - Updated data source to new version
 - 64-bit build
