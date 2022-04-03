@@ -21,7 +21,7 @@
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished"></translation>
+        <translation>Version</translation>
     </message>
 </context>
 <context>
@@ -1223,15 +1223,15 @@
     </message>
     <message>
         <source>Colorless gas, exhibiting a blue glow when placed in a high voltage electric field</source>
-        <translation type="unfinished"></translation>
+        <translation>Färglös gas, uppvisar en blå glöd när den placeras i ett högspänningselektriskt fält</translation>
     </message>
     <message>
         <source>Lanthanide</source>
-        <translation type="unfinished"></translation>
+        <translation>Lanthanid</translation>
     </message>
     <message>
         <source>undefined</source>
-        <translation type="unfinished"></translation>
+        <translation>odefinierad</translation>
     </message>
 </context>
 <context>
@@ -1239,59 +1239,59 @@
     <message>
         <source>K</source>
         <extracomment>Unit, Kelvins</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>K</translation>
     </message>
     <message>
         <source>g/mol</source>
         <extracomment>Unit, grams per mole</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>g/mol</translation>
     </message>
     <message>
         <source>g/l</source>
         <extracomment>Unit, grams per liter</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>g/l</translation>
     </message>
     <message>
         <source>g/cm³</source>
         <extracomment>Unit, grams per cubic centimeter</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>g/cm³</translation>
     </message>
     <message>
         <source>J/(mol·K)</source>
         <extracomment>Unit, Joules per ( mole * Kelvin )</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>J/(mol·K)</translation>
     </message>
     <message>
         <source>kJ/mol</source>
         <extracomment>Unit, Kilojoules per mole</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>kJ/mol</translation>
     </message>
 </context>
 <context>
     <name>LanguageDialog</name>
     <message>
         <source>English</source>
-        <translation type="unfinished"></translation>
+        <translation>Engelska</translation>
     </message>
     <message>
         <source>Finnish</source>
-        <translation type="unfinished"></translation>
+        <translation>Finska</translation>
     </message>
     <message>
         <source>Swedish</source>
-        <translation type="unfinished"></translation>
+        <translation>Svenska</translation>
     </message>
     <message>
         <source>Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Kinesiska</translation>
     </message>
     <message>
         <source>Russian</source>
-        <translation type="unfinished"></translation>
+        <translation>Ryska</translation>
     </message>
     <message>
         <source>German</source>
-        <translation type="unfinished"></translation>
+        <translation>Tyska</translation>
     </message>
 </context>
 <context>
@@ -1326,11 +1326,11 @@
     </message>
     <message>
         <source>Language</source>
-        <translation type="unfinished"></translation>
+        <translation>Språk</translation>
     </message>
     <message>
         <source>Choose language</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj språk</translation>
     </message>
 </context>
 </TS>
